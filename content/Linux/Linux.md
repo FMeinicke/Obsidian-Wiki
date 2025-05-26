@@ -1,12 +1,7 @@
 ---
-publish: true
-sorting-spec: |-
-  Linux
-  /:files
-  /folders
-cssclasses:
-  - hide_properties
+{"publish":true,"cssclasses":"hide_properties"}
 ---
+
 
 - [change user password in script](Linux/change user password in script.md)
     
@@ -350,10 +345,7 @@ if using bash, then `chpasswd` is also an option
 echo "someuser:newpassword" | chpasswd
 ```
 
----
-publish: true
-title: Make `/sys/power/image_size` persistent
----
+
 
 #swap #hibernation #sys/power/image_size #tmpfiles
 
