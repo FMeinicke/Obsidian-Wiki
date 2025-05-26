@@ -42,14 +42,6 @@ export type Analytics =
       provider: "clarity"
       projectId?: string
     }
-  | {
-      provider: "matomo"
-      host: string
-      siteId: string
-    }
-  | {
-      provider: "vercel"
-    }
 
 export interface GlobalConfiguration {
   pageTitle: string

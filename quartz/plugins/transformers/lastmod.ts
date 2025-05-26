@@ -1,8 +1,13 @@
 import fs from "fs"
 import { Repository } from "@napi-rs/simple-git"
 import { QuartzTransformerPlugin } from "../types"
+<<<<<<< HEAD
 import path from "path"
 import { styleText } from "util"
+=======
+import chalk from "chalk"
+import path from "path"
+>>>>>>> cad16f9 (Initial commit)
 
 export interface Options {
   priority: ("frontmatter" | "git" | "filesystem")[]
@@ -12,6 +17,7 @@ const defaultOptions: Options = {
   priority: ["frontmatter", "git", "filesystem"],
 }
 
+<<<<<<< HEAD
 // YYYY-MM-DD
 const iso8601DateOnlyRegex = /^\d{4}-\d{2}-\d{2}$/
 
@@ -23,12 +29,19 @@ function coerceDate(fp: string, d: any): Date {
     d = `${d}T00:00:00`
   }
 
+=======
+function coerceDate(fp: string, d: any): Date {
+>>>>>>> cad16f9 (Initial commit)
   const dt = new Date(d)
   const invalidDate = isNaN(dt.getTime()) || dt.getTime() === 0
   if (invalidDate && d !== undefined) {
     console.log(
+<<<<<<< HEAD
       styleText(
         "yellow",
+=======
+      chalk.yellow(
+>>>>>>> cad16f9 (Initial commit)
         `\nWarning: found invalid date "${d}" in \`${fp}\`. Supported formats: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date#date_time_string_format`,
       ),
     )
@@ -53,10 +66,14 @@ export const CreatedModifiedDate: QuartzTransformerPlugin<Partial<Options>> = (u
               repositoryWorkdir = repo.workdir() ?? ctx.argv.directory
             } catch (e) {
               console.log(
+<<<<<<< HEAD
                 styleText(
                   "yellow",
                   `\nWarning: couldn't find git repository for ${ctx.argv.directory}`,
                 ),
+=======
+                chalk.yellow(`\nWarning: couldn't find git repository for ${ctx.argv.directory}`),
+>>>>>>> cad16f9 (Initial commit)
               )
             }
           }
@@ -83,8 +100,12 @@ export const CreatedModifiedDate: QuartzTransformerPlugin<Partial<Options>> = (u
                   modified ||= await repo.getFileLatestModifiedDateAsync(relativePath)
                 } catch {
                   console.log(
+<<<<<<< HEAD
                     styleText(
                       "yellow",
+=======
+                    chalk.yellow(
+>>>>>>> cad16f9 (Initial commit)
                       `\nWarning: ${file.data.filePath!} isn't yet tracked by git, dates will be inaccurate`,
                     ),
                   )
