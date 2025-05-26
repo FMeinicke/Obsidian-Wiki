@@ -1,7 +1,7 @@
 ---
-publish: true
-title: Make `/sys/power/image_size` persistent
+{"publish":true,"title":"Make `/sys/power/image_size` persistent","cssclasses":""}
 ---
+
 
 #swap #hibernation #sys/power/image_size #tmpfiles
 
