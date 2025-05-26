@@ -1,13 +1,7 @@
 ---
-publish: true
-sorting-spec: |-
-  Python
-  Coding Guidelines
-  /:files
-  /folders
-cssclasses:
-  - hide_properties
+{"publish":true,"cssclasses":"hide_properties"}
 ---
+
 
 - [`Iterable` vs. `Sequence`](Coding/Python/`Iterable` vs. `Sequence`.md)
 - [abstract property](Coding/Python/abstract property.md)

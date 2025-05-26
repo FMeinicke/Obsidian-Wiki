@@ -1,14 +1,9 @@
 ---
-publish: true
-sorting-spec: |-
-  JavaScript
-  /:files
-  /folders
-cssclasses:
-  - hide_properties
+{"publish":true,"cssclasses":"hide_properties"}
 ---
 
 
+- [Test if a string matches a regex](Coding/JavaScript/Test if a string matches a regex.md)
 
 
 #js/regex/test
