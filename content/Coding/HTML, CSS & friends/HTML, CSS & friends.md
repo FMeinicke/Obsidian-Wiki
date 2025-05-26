@@ -1,14 +1,10 @@
 ---
-publish: true
-sorting-spec: |-
-  HTML, CSS & friends
-  /:files
-  /folders
-cssclasses:
-  - hide_properties
+{"publish":true,"cssclasses":"hide_properties"}
 ---
 
 
+- [Hide element but keep space](Coding/HTML, CSS & friends/Hide element but keep space.md)
+- [Ordered list with circled numbers](Coding/HTML, CSS & friends/Ordered list with circled numbers.md)
 
 ---
 

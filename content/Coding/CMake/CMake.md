@@ -1,14 +1,11 @@
 ---
-publish: true
-sorting-spec: |-
-  CMake
-  /:files
-  /folders
-cssclasses:
-  - hide_properties
+{"publish":true,"cssclasses":"hide_properties"}
 ---
 
 
+- [Finding Boost with MinGW on Windows](Coding/CMake/Finding Boost with MinGW on Windows.md)
+- [Fix 'file too big' error](Coding/CMake/Fix 'file too big' error.md)
+- [Use `lld`](Coding/CMake/Use `lld`.md)
 
 
 #mingw #windows #boost

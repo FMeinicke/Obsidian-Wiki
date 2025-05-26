@@ -12,16 +12,7 @@
 > 
 > **An object can only be "pushed" to another thread (i.e., the current thread must be the same as the object's thread), it cannot be "pulled" from an arbitrary thread to the current thread!**
 
----
-publish: true
-sorting-spec: |-
-  Python
-  Coding Guidelines
-  /:files
-  /folders
-cssclasses:
-  - hide_properties
----
+
 
 - [`Iterable` vs. `Sequence`](Coding/Python/`Iterable` vs. `Sequence`.md)
 - [abstract property](Coding/Python/abstract property.md)

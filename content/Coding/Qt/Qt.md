@@ -1,14 +1,14 @@
 ---
-publish: true
-sorting-spec: |-
-  Qt
-  /:files
-  /folders
-cssclasses:
-  - hide_properties
+{"publish":true,"cssclasses":"hide_properties"}
 ---
 
 
+- [Moving an object to a different thread](Coding/Qt/Moving an object to a different thread.md)
+- [QMake](QMake)
+    - [Check for ARM architecture](Coding/Qt/QMake/Check for ARM architecture.md)
+    - [Literal dollar sign](Coding/Qt/QMake/Literal dollar sign.md)
+    - [Proper quoting and path separators](Coding/Qt/QMake/Proper quoting and path separators.md)
+    - [Use `lld`](Coding/Qt/QMake/Use `lld`.md)
 
 ---
 
@@ -23,16 +23,7 @@ cssclasses:
 > 
 > **An object can only be "pushed" to another thread (i.e., the current thread must be the same as the object's thread), it cannot be "pulled" from an arbitrary thread to the current thread!**
 
----
-publish: true
-sorting-spec: |-
-  Python
-  Coding Guidelines
-  /:files
-  /folders
-cssclasses:
-  - hide_properties
----
+
 
 - [`Iterable` vs. `Sequence`](Coding/Python/`Iterable` vs. `Sequence`.md)
 - [abstract property](Coding/Python/abstract property.md)

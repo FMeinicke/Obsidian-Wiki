@@ -1,14 +1,44 @@
 ---
-publish: true
-sorting-spec: |-
-  Coding
-  /:files
-  /folders
-cssclasses:
-  - hide_properties
+{"publish":true,"cssclasses":"hide_properties"}
 ---
 
 
+- [Coding](Coding/Coding.md)
+- [Print and count the dependent libraries of executables or shared objects](Coding/Print and count the dependent libraries of executables or shared objects.md)
+- [Specify number of parallel processes for jom](Coding/Specify number of parallel processes for jom.md)
+- [CMake](CMake)
+    - [Finding Boost with MinGW on Windows](Coding/CMake/Finding Boost with MinGW on Windows.md)
+    - [Fix 'file too big' error](Coding/CMake/Fix 'file too big' error.md)
+    - [Use `lld`](Coding/CMake/Use `lld`.md)
+- [HTML, CSS & friends](HTML, CSS & friends)
+    - [Hide element but keep space](Coding/HTML, CSS & friends/Hide element but keep space.md)
+    - [Ordered list with circled numbers](Coding/HTML, CSS & friends/Ordered list with circled numbers.md)
+- [JavaScript](JavaScript)
+    - [Test if a string matches a regex](Coding/JavaScript/Test if a string matches a regex.md)
+- [Python](Python)
+    - [`Iterable` vs. `Sequence`](Coding/Python/`Iterable` vs. `Sequence`.md)
+    - [abstract property](Coding/Python/abstract property.md)
+    - [abstract static property](Coding/Python/abstract static property.md)
+    - [Access `dist-packages` when inside a venv](Coding/Python/Access `dist-packages` when inside a venv.md)
+    - [Check if type is built-in](Coding/Python/Check if type is built-in.md)
+    - [Coding Guidelines](Coding/Python/Coding Guidelines.md)
+    - [Difference between slash and asterisk in function parameter list](Coding/Python/Difference between slash and asterisk in function parameter list.md)
+    - [Dynamically add property to a class](Coding/Python/Dynamically add property to a class.md)
+    - [Find the path to actual installation directory for the Windows Store version](Coding/Python/Find the path to actual installation directory for the Windows Store version.md)
+    - [Function decorator that accepts optional keyword-argument](Coding/Python/Function decorator that accepts optional keyword-argument.md)
+    - [Get class of a generic class's `TypeVar`](Coding/Python/Get class of a generic class's `TypeVar`.md)
+    - [Get the number of parameters for a function](Coding/Python/Get the number of parameters for a function.md)
+    - [How to use `Q_ARG` and `Q_RETURN_ARG` with `QMetaObject.invokeMethod()` in PySide6](Coding/Python/How to use `Q_ARG` and `Q_RETURN_ARG` with `QMetaObject.invokeMethod\(\)` in PySide6.md)
+    - [Mock an `ImportError` with pytest](Coding/Python/Mock an `ImportError` with pytest.md)
+    - [Proper Ctrl+C behavior with PySide2](Coding/Python/Proper Ctrl+C behavior with PySide2.md)
+    - [stub generation](Coding/Python/stub generation.md)
+- [Qt](Qt)
+    - [Moving an object to a different thread](Coding/Qt/Moving an object to a different thread.md)
+    - [QMake](QMake)
+        - [Check for ARM architecture](Coding/Qt/QMake/Check for ARM architecture.md)
+        - [Literal dollar sign](Coding/Qt/QMake/Literal dollar sign.md)
+        - [Proper quoting and path separators](Coding/Qt/QMake/Proper quoting and path separators.md)
+        - [Use `lld`](Coding/Qt/QMake/Use `lld`.md)
 
 ---
 

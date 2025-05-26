@@ -1,14 +1,12 @@
 ---
-publish: true
-sorting-spec: |-
-  QMake
-  /:files
-  /folders
-cssclasses:
-  - hide_properties
+{"publish":true,"cssclasses":"hide_properties"}
 ---
 
 
+- [Check for ARM architecture](Coding/Qt/QMake/Check for ARM architecture.md)
+- [Literal dollar sign](Coding/Qt/QMake/Literal dollar sign.md)
+- [Proper quoting and path separators](Coding/Qt/QMake/Proper quoting and path separators.md)
+- [Use `lld`](Coding/Qt/QMake/Use `lld`.md)
 
 ---
 
