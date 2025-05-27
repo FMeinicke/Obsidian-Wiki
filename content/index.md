@@ -48,6 +48,7 @@
 - [VMWare](VMWare)
 - [Windows](Windows)
     - [Hyper-V](Hyper-V)
+    - [Office](Office)
         - [Excel](Excel)
         - [PowerPoint](PowerPoint)
         - [Word](Word)
