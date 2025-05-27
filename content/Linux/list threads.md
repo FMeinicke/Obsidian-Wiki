@@ -13,15 +13,7 @@
 ps -eLf
 ```
 
-  ---
-publish: true
-sorting-spec: |-
-  Raspberry Pi
-  /:files
-  /folders
-cssclasses:
-  - hide_properties
----
+  
 
 - [Count number of threads + open files](Linux/Distros/Raspberry Pi/Count number of threads + open files.md)
 - [Increase swap size](Linux/Distros/Raspberry Pi/Increase swap size.md)
