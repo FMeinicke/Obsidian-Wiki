@@ -4,14 +4,7 @@
 
 #cmake/cmake_cxx_flags #cmake/cmakelists #lld
 
----
-sorting-spec: |-
-  Windows
-  /:files
-  /folders
-cssclasses:
-  - hide_properties
----
+
 
 - [Change swap file (pagefile.sys) size](Windows/Change swap file \(pagefile.sys\) size.md)
     
@@ -30,9 +23,9 @@ cssclasses:
 - [Hyper-V](Hyper-V)
     
     - [Change display resolution](Windows/Hyper-V/Change display resolution.md)
-        
     - [NAT Switch à la VMware](Windows/Hyper-V/NAT Switch à la VMware.md)
-        
+- [Office](Office)
+    
     - [Excel](Excel)
         
         - [Compare cell value with text for conditional formatting](Windows/Office/Excel/Compare cell value with text for conditional formatting.md)
@@ -63,6 +56,7 @@ cssclasses:
 
 ---
 
+
 #windows/shortcuts #windows/powertoys
 
 > [!info] Source
@@ -86,6 +80,7 @@ cssclasses:
 | <kbd>Win</kbd>+<kbd>Shift</kbd>+<kbd>T</kbd>                                                                                                                                       | PowerToys: Text Extractor          |
 | <kbd>\<Key to add an accent to\></kbd>+<kbd>Space</kbd> or<br><kbd>\<Key to add an accent to\></kbd>+<kbd>Left</kbd> or<br><kbd>\<Key to add an accent to\></kbd>+<kbd>Right</kbd> | PowerToys: Quick Accent            |
 | <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>T</kbd>                                                                                                                                        | Launch Terminal                    |
+
 
 #grpc #sila #port #tcp #windows/netsh
 
@@ -171,6 +166,7 @@ RuntimeError: Failed to bind to address 192.168.101.39:51054; set GRPC_VERBOSITY
 
 Resource Monitor also did not show any services or processes occupying this port.
 
+
 #port #pwsh/get-process #pwsh/get-nettcpconnection #pwsh/get-netudpendpoint #tcp #udp
 
 > [!info] Source
@@ -189,6 +185,7 @@ Resource Monitor also did not show any services or processes occupying this port
   Get-Process -Id (Get-NetUDPEndpoint -LocalPort <PORT>).OwningProcess
   ```
 
+
 #mingw #gcc #lld #llvm #linker #qmake #cmake
 
 > [!info] Source
@@ -200,6 +197,7 @@ Resource Monitor also did not show any services or processes occupying this port
 - with CMake ^85c9b4
   - add `-DCMAKE_CXX_FLAGS="-fuse-ld=lld"` to the command line
   - add `list(APPEND CMAKE_CXX_FLAGS "-fuse-ld=lld")` in a `CMakeLists.txt` file
+
 
 #vmware/vmx #side-channel-mitigations
 
@@ -213,6 +211,7 @@ Resource Monitor also did not show any services or processes occupying this port
 ulm.disableMitigations = "TRUE"
 ```
 
+
 #windows/shutdown/h #hibernate
 
 > [!info] Source
@@ -222,6 +221,7 @@ ulm.disableMitigations = "TRUE"
 ```shell
 shutdown /h
 ```
+
 
 #windows/pagefile #windows/swap #swap #ram
 

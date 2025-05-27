@@ -30,16 +30,7 @@
   pinentry-program /mnt/c/Program Files (x86)/Gpg4win/bin/pinentry.exe
   ```
 
----
-publish: true
-sorting-spec: |-
-  Git
-  common global settings
-  /:files
-  /folders
-cssclasses:
-  - hide_properties
----
+
 
 > *It is easy to shoot your foot off with git, but also easy to revert to a previous foot and merge it with your current leg.*
 > <span class="right-align">Jack William Bell</span>
@@ -104,16 +95,7 @@ In this reference section we use the following substitutions:
 - `VALUE`: an arbitrary value for Git configs.
 - `TAG`: a tag name
 
-Also, don’t type the `---
-publish: true
-sorting-spec: |-
-  Git
-  common global settings
-  /:files
-  /folders
-cssclasses:
-  - hide_properties
----
+Also, don’t type the `
 
 > *It is easy to shoot your foot off with git, but also easy to revert to a previous foot and merge it with your current leg.*
 > <span class="right-align">Jack William Bell</span>
