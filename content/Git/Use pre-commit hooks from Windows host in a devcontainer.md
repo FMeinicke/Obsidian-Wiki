@@ -24,4 +24,4 @@ for f in $(ls -1 .git/hooks/* | grep -v '.sample'); do cat -v ${f}; done
 for f in $(ls -1 .git/hooks/* | grep -v '.sample'); do cat -v ${f} | tr -d '\r' > ${f}.tmp && mv ${f}.tmp ${f}; done
 ```
 
-(see [[Linux/Commands/ls with path\|ls with path]])
+(see [[Linux/Commands/ls with path]])
