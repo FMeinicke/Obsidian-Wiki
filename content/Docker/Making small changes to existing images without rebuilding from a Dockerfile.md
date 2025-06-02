@@ -18,7 +18,7 @@ In case this command is self-contained (i.e. doesn't introduce downstream depend
 4. Recreate and restart any affected containers using this image.
 5. Add the command to the Dockerfile at the desired location.
 
-For example, given the first Dockerfile from [[Docker/Running systemd as PID 1 in a container\|Running systemd as PID 1 in a container]] with the image named `ubuntu-systemd:latest` and the `systemcl mask` command to be added using the described procedure, you'd need to do the following:
+For example, given the first Dockerfile from [[Docker/Running systemd as PID 1 in a container]] with the image named `ubuntu-systemd:latest` and the `systemcl mask` command to be added using the described procedure, you'd need to do the following:
 
 ```console
 root@svr-vm-docker-01:/# docker run --name ubuntu-systemd-temp -d ubuntu-systemd:latest

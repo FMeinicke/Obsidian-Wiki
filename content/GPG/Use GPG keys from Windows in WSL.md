@@ -1172,7 +1172,7 @@ for f in $(ls -1 .git/hooks/* | grep -v '.sample'); do cat -v ${f}; done
 for f in $(ls -1 .git/hooks/* | grep -v '.sample'); do cat -v ${f} | tr -d '\r' > ${f}.tmp && mv ${f}.tmp ${f}; done
 ```
 
-(see [[Linux/Commands/ls with path\|ls with path]])
+(see [[Linux/Commands/ls with path]])
 
 
 
@@ -1193,4 +1193,34 @@ for f in $(ls -1 .git/hooks/* | grep -v '.sample'); do cat -v ${f} | tr -d '\r' 
 
 ## Tagged mentions
 
+```dataviewjs
+const pages = dv.pages('"Wiki"').where(page => !page.file.path.contains("Wiki/Git/"));
 
+for (let page of pages) {
+    const content = await dv.io.load(page.file.path);
+    const lines = content.split("\n");
+
+    let current_section_heading = "";
+
+    for (let i = 0; i < lines.length; i++) {
+        const line = lines[i];
+
+        if (current_section_heading.length > 0 && line.startsWith("#")) {
+            // https://regexr.com/85o2t
+            // dv.paragraph(`${line}: ${/#[\w\/]*git[\w\/]*/.test(line)}`);
+            if (/#[\w\/]*git[\w\/]*/.test(line)) {
+                const page_file_path_basename = page.file.path.slice(0, -3);
+                //dv.paragraph(`${page_file_path_basename}: ${current_section_heading}`);
+                //dv.paragraph(`![[${page_file_path_basename}#${current_section_heading}]]`)
+                dv.paragraph(`${page_file_path_basename.slice(5)}`);
+                dv.paragraph(dv.sectionLink(page_file_path_basename, current_section_heading, true));
+            }
+            current_section_heading = "";
+        }
+
+        if (line.startsWith("## ")) {
+            current_section_heading = line.slice(3);
+        }
+    }
+}
+```
