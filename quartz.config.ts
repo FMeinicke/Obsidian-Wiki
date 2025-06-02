@@ -12,7 +12,11 @@ const config: QuartzConfig = {
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
-    analytics: null,
+    analytics: {
+      provider: "umami", 
+      host: "https://umami.fmeinicke.xyz", 
+      websiteId: "489f23d7-f4fb-4c09-b46e-3429622454ee"
+    },
     locale: "en-US",
     baseUrl: "wiki.fmeinicke.xyz",
     ignorePatterns: ["private", "templates", ".obsidian"],
