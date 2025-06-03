@@ -15,10 +15,13 @@
 - **Always use `raise Exception from err` in an `except` block.**  
   This makes it easier to trace the exception back to its root cause.
     - See ruff's [raise-without-from-inside-except (B904)](https://docs.astral.sh/ruff/rules/raise-without-from-inside-except/).
+- **Always use `raise Exception` instead of `raise Exception()`.**  
+  When there are no arguments, no parentheses are required and according to [this SO answer](https://stackoverflow.com/a/16709222/12780516#:~:text=that%20said%2C%20even%20though%20the%20semantics%20are%20the%20same%2C%20the%20first%20form%20is%20microscopically%20faster), this should even be a bit faster than raising the exception instance.
+    - Also see ruff's [unnecessary-paren-on-raise-exception (RSE102)](https://docs.astral.sh/ruff/rules/unnecessary-paren-on-raise-exception/#unnecessary-paren-on-raise-exception-rse102).
 - **Use `tuple`s instead of `list`s for `Iterable` arguments**  
   Tuples are immutable, lists are mutable. If a function only requires some kind of iterable container, and you pass that container in-place (i.e., without assigning it to a variable), use a tuple.
     - E.g., `some_func((1, 2, 3,))` instead of `some_func([1, 2, 3])`.
-- **Use the suffix *`Mixin`* for mixin classes.***  
+- **Use the suffix *`Mixin`* for mixin classes.**  
   This is the recommended naming practice and indicates clearly that a class is a mixin and thus not to be used as a regular base class.
 - **Add annotations whenever necessary (function parameters, return values, class member variable declarations) and use PEP 585 and PEP 604 syntax for type annotations.**  
 - **Use a line length of 120 characters.**  
@@ -81,7 +84,7 @@
       """
   
       return False
-  ```
+```
 - **Use `%s` formatting syntax as the preferred method for logging messages.**  
   This is the recommended way according to the logging module's documentation as this ensures that "Formatting of message arguments is deferred until it cannot be avoided." Using f-string syntax might have an extra cost as it will format the message even if it is not logged.
   f-strings may be used instead when they significantly increase readability, or are necessary for complex formatting (that can't be achieved using the older `%s` formatting) or embedded expressions.
@@ -91,6 +94,3 @@
   # over
   logging.debug(f"some message {var}: 42")
   ```
-
-
----
