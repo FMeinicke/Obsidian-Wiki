@@ -38,6 +38,7 @@
       Separate positional-only from positional-or-keyword from keyword-only arguments with an empty line.
       If a parameter can be omitted (e.g. because it defaults to `None` or another default value), add ", optional" after
       the type. Similarly, if the default value is not `None`, add ", default <default value>" as well.
+      If a parameter is a keyword-only argument (i.e., comes after `*` or `*args`), add "kw-only" for more clarity.
   
       After the parameters, list the return value(s) and what they represent in a "Returns" section.
   
@@ -63,9 +64,9 @@
       c : float
           Description of c
   
-      d : int, optional
+      d : int, optional, kw-only
           Description of d
-      e : str, optional, default "default"
+      e : str, optional, default "default", kw-only
           Description of e
   
       Returns
