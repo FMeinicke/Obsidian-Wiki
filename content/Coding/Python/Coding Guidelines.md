@@ -81,7 +81,7 @@
       """
   
       return False
-```
+  ```
 - **Use `%s` formatting syntax as the preferred method for logging messages.**  
   This is the recommended way according to the logging module's documentation as this ensures that "Formatting of message arguments is deferred until it cannot be avoided." Using f-string syntax might have an extra cost as it will format the message even if it is not logged.
   f-strings may be used instead when they significantly increase readability, or are necessary for complex formatting (that can't be achieved using the older `%s` formatting) or embedded expressions.
