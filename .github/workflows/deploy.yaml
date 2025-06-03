@@ -6,7 +6,7 @@ on:
       - v4
  
 env:
-  THEME_NAME: abecedarium
+  THEME_NAME: things-3  # ultra-lobster, tokyo-night, things-3, terminal2k, soothe, soloing, simplicity, abecedarium, 
  
 permissions:
   contents: read
