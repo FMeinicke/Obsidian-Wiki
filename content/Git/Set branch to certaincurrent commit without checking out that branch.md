@@ -1,5 +1,5 @@
 ---
-{"publish":true,"cssclasses":""}
+{"publish":true,"title":"Set branch to certain/current commit without checking out that branch","cssclasses":""}
 ---
 
 #git/branch/force
