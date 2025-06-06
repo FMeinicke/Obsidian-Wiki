@@ -88,7 +88,7 @@ Your usage *should* work in *math mode*, so try `$\:$`.
       \verb|a~b|                      & a~b \\
       \verb|$a~b$|                    & $a~b$ \\
       \verb|a\hfill b|                & a\hfill b \\
-      \verb|$a\hfill b$|              & $a\hfill b$
+      \verb|$a\hfill b$|              & $a\hfill b$$
     \end{tabular}
 
     \end{document}

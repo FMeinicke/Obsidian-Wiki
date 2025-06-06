@@ -3,52 +3,52 @@
 ---
 
 
-- [Android](Android)
-    - [Rooting](Android/Rooting)
-- [Coding](Coding)
-    - [CMake](Coding/CMake)
-    - [HTML, CSS & friends](Coding/HTML,-CSS--and--friends)
-    - [JavaScript](Coding/JavaScript)
-    - [Python](Coding/Python)
-    - [Qt](Coding/Qt)
-        - [QMake](Coding/Qt/QMake)
-- [Docker](Docker)
-- [Git](Git)
-- [GPG](GPG)
-- [Homeserver](Homeserver)
-    - [Nextcloud](Homeserver/Nextcloud)
-- [LaTeX](LaTeX)
-- [Linux](Linux)
-    - [Commands](Linux/Commands)
-        - [awk](Linux/Commands/awk)
-        - [find](Linux/Commands/find)
-        - [grep](Linux/Commands/grep)
-        - [openssl](Linux/Commands/openssl)
-        - [sed](Linux/Commands/sed)
-        - [vim](Linux/Commands/vim)
-    - [Distros](Linux/Distros)
-        - [Arch, Manjaro & friends](Linux/Distros/Arch,-Manjaro--and--friends)
-        - [Debian, Ubuntu & friends](Linux/Distros/Debian,-Ubuntu--and--friends)
-        - [Raspberry Pi](Linux/Distros/Raspberry-Pi)
-    - [Shells](Linux/Shells)
-        - [bash](Linux/Shells/bash)
-            - [Command Line](Linux/Shells/bash/Command-Line)
-            - [General](Linux/Shells/bash/General)
-            - [Scripting](Linux/Shells/bash/Scripting)
-        - [zsh](Linux/Shells/zsh)
-    - [systemd & friends](Linux/systemd--and--friends)
-    - [WiFi](Linux/WiFi)
-    - [yt-dlp, ffmpeg & friends](Linux/yt-dlp,-ffmpeg--and--friends)
-    - [ZFS](Linux/ZFS)
-- [Markdown](Markdown)
-- [Obsidian](Obsidian)
-- [SSH](SSH)
-- [Thunderbird](Thunderbird)
-- [VMWare](VMWare)
-- [Windows](Windows)
-    - [Hyper-V](Windows/Hyper-V)
-    - [Office](Windows/Office)
-        - [Excel](Windows/Office/Excel)
-        - [PowerPoint](Windows/Office/PowerPoint)
-        - [Word](Windows/Office/Word)
-    - [Powershell](Windows/Powershell)
+- [[Android\|Android]]
+    - [[Android/Rooting\|Rooting]]
+- [[Coding\|Coding]]
+    - [[Coding/CMake\|CMake]]
+    - [[Coding/HTML, CSS & friends\|HTML, CSS & friends]]
+    - [[Coding/JavaScript\|JavaScript]]
+    - [[Coding/Python\|Python]]
+    - [[Coding/Qt\|Qt]]
+        - [[Coding/Qt/QMake\|QMake]]
+- [[Docker\|Docker]]
+- [[Git\|Git]]
+- [[GPG\|GPG]]
+- [[Homeserver\|Homeserver]]
+    - [[Homeserver/Nextcloud\|Nextcloud]]
+- [[LaTeX\|LaTeX]]
+- [[Linux\|Linux]]
+    - [[Linux/Commands\|Commands]]
+        - [[Linux/Commands/awk\|awk]]
+        - [[Linux/Commands/find\|find]]
+        - [[Linux/Commands/grep\|grep]]
+        - [[Linux/Commands/openssl\|openssl]]
+        - [[Linux/Commands/sed\|sed]]
+        - [[Linux/Commands/vim\|vim]]
+    - [[Linux/Distros\|Distros]]
+        - [[Linux/Distros/Arch, Manjaro & friends\|Arch, Manjaro & friends]]
+        - [[Linux/Distros/Debian, Ubuntu & friends\|Debian, Ubuntu & friends]]
+        - [[Linux/Distros/Raspberry Pi\|Raspberry Pi]]
+    - [[Linux/Shells\|Shells]]
+        - [[Linux/Shells/bash\|bash]]
+            - [[Linux/Shells/bash/Command Line\|Command Line]]
+            - [[Linux/Shells/bash/General\|General]]
+            - [[Linux/Shells/bash/Scripting\|Scripting]]
+        - [[Linux/Shells/zsh\|zsh]]
+    - [[Linux/systemd & friends\|systemd & friends]]
+    - [[Linux/WiFi\|WiFi]]
+    - [[Linux/yt-dlp, ffmpeg & friends\|yt-dlp, ffmpeg & friends]]
+    - [[Linux/ZFS\|ZFS]]
+- [[Markdown\|Markdown]]
+- [[Obsidian\|Obsidian]]
+- [[SSH\|SSH]]
+- [[Thunderbird\|Thunderbird]]
+- [[VMWare\|VMWare]]
+- [[Windows\|Windows]]
+    - [[Windows/Hyper-V\|Hyper-V]]
+    - [[Windows/Office\|Office]]
+        - [[Windows/Office/Excel\|Excel]]
+        - [[Windows/Office/PowerPoint\|PowerPoint]]
+        - [[Windows/Office/Word\|Word]]
+    - [[Windows/Powershell\|Powershell]]
