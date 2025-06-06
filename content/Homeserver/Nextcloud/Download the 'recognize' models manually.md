@@ -19,7 +19,7 @@
 www-data@nextcloud:~/html$ cd custom_apps/recognize/
 www-data@nextcloud:~/html/custom_apps/recognize$ tar -xf recognize-7.0.0.tar.gz recognize-7.0.0/models
 www-data@nextcloud:~/html/custom_apps/recognize$ mv recognize-7.0.0/models/ .
-www-data@nextcloud:~/html/custom_apps/recognize$
+www-data@nextcloud:~/html/custom_apps/recognize$$
 exit
 [docker-jail nextcloud]# docker compose exec app bash
 root@nextcloud:/var/www/html# rm -r custom_apps/recognize/recognize-7.0.0*

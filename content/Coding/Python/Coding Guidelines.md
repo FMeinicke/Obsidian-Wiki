@@ -28,7 +28,7 @@
   The default 80 which has been established in most other languages seems to be a bit too small for most Python applications I've written so far. 120 using [ruff](https://docs.astral.sh/ruff/) with the default settings gives a very nice look 95% of the time, reducing the need to surround code with `# fmt: off` and `# fmt: on` comments to do manual formatting
 - **Use [numpydoc format](https://numpydoc.readthedocs.io/en/latest/format.html) for doc comments.**  
   See [[example.py]]:
-  ```python
+```python
   def example(a: int, b: str, /, c: float, *, d: int | None = None, e: str = "default") -> bool:
       """
       Example numpydoc doc comment. The summary should be printed on the first new line (not directly after the starting
@@ -84,7 +84,7 @@
       """
   
       return False
-  ```
+```
 - **Use `%s` formatting syntax as the preferred method for logging messages.**  
   This is the recommended way according to the logging module's documentation as this ensures that "Formatting of message arguments is deferred until it cannot be avoided." Using f-string syntax might have an extra cost as it will format the message even if it is not logged.
   f-strings may be used instead when they significantly increase readability, or are necessary for complex formatting (that can't be achieved using the older `%s` formatting) or embedded expressions.
