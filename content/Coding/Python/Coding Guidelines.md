@@ -94,3 +94,5 @@
   # over
   logging.debug(f"some message {var}: 42")
   ```
+- **Use the `@override` decorator from the `typing` module to mark functions in subclasses that override base class functions.**  
+  This ensures that the subclass method has the same signature as the base class method and can prevent subtle bugs when the base class method changes, for example.
