@@ -1,5 +1,5 @@
 ---
-{"publish":true,"cssclasses":""}
+{"publish":true,"created":"2025-05-15T09:01:46.951+02:00","modified":"2025-05-26T15:25:02.777+02:00","published":"2025-05-26T15:25:02.777+02:00","cssclasses":""}
 ---
 
 #qmake/custom-target #qmake/shell_path #qmake/shell_quote
