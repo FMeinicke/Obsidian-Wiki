@@ -1,5 +1,5 @@
 ---
-{"publish":true,"cssclasses":""}
+{"publish":true,"created":"2025-05-15T09:01:47.826+02:00","modified":"2025-05-26T15:25:04.371+02:00","published":"2025-05-26T15:25:04.371+02:00","cssclasses":""}
 ---
 
 #git/script #git/bin #git/for-windows #windows

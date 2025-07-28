@@ -1,5 +1,5 @@
 ---
-{"publish":true,"cssclasses":""}
+{"publish":true,"created":"2025-05-15T09:01:49.107+02:00","modified":"2025-05-26T15:25:07.403+02:00","published":"2025-05-26T15:25:07.403+02:00","cssclasses":""}
 ---
 
 #latex/figure #latex/includegraphics/angle #latex/textwidth

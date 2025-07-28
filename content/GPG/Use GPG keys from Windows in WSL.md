@@ -1,5 +1,5 @@
 ---
-{"publish":true,"cssclasses":""}
+{"publish":true,"created":"2025-05-15T09:01:47.560+02:00","modified":"2025-06-04T11:20:13.582+02:00","published":"2025-06-04T11:20:13.582+02:00","cssclasses":""}
 ---
 
 #gpg/pinentry #windows

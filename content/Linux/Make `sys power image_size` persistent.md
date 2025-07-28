@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"Make `/sys/power/image_size` persistent","cssclasses":""}
+{"publish":true,"title":"Make `/sys/power/image_size` persistent","created":"2025-05-15T09:01:50.311+02:00","modified":"2025-05-26T15:42:21.495+02:00","published":"2025-05-26T15:42:21.495+02:00","cssclasses":""}
 ---
 
 
