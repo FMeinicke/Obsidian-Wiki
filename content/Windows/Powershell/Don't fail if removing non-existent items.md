@@ -1,5 +1,5 @@
 ---
-{"publish":true,"cssclasses":""}
+{"publish":true,"created":"2025-05-15T09:01:51.998+02:00","modified":"2025-05-27T08:42:34.357+02:00","published":"2025-05-27T08:42:34.357+02:00","cssclasses":""}
 ---
 
 #pwsh/remove-item #pwsh/-error-action

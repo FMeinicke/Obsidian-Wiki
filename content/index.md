@@ -1,5 +1,5 @@
 ---
-{"publish":true,"title":"FMeinicke's Wiki","cssclasses":""}
+{"publish":true,"title":"FMeinicke's Wiki","created":"2025-05-26T15:16:18.792+02:00","modified":"2025-06-06T08:16:24.495+02:00","published":"2025-06-06T08:16:24.495+02:00","cssclasses":""}
 ---
 
 

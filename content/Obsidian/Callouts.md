@@ -1,5 +1,5 @@
 ---
-{"publish":true,"cssclasses":""}
+{"publish":true,"created":"2025-05-15T09:01:51.264+02:00","modified":"2025-06-24T09:23:15.013+02:00","published":"2025-06-24T09:23:15.013+02:00","cssclasses":""}
 ---
 
 #obsidian/callouts

@@ -1,5 +1,5 @@
 ---
-{"publish":true,"cssclasses":""}
+{"publish":true,"created":"2025-05-15T09:01:50.920+02:00","modified":"2025-05-26T15:25:11.513+02:00","published":"2025-05-26T15:25:11.513+02:00","cssclasses":""}
 ---
 
 #systemd #journalctl #less
