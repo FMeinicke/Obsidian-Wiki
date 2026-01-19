@@ -1,5 +1,9 @@
 ---
-{"publish":true,"created":"2025-05-15T09:01:46.779+02:00","modified":"2025-05-26T15:25:02.558+02:00","published":"2025-05-26T15:25:02.558+02:00","cssclasses":""}
+publish: true
+created: 2025-05-15T09:01:46.779+02:00
+modified: 2025-05-26T15:25:02.558+02:00
+published: 2025-05-26T15:25:02.558+02:00
+cssclasses: ""
 ---
 
 #python/iterable #python/sequence #python/typing #python/collections/abc

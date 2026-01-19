@@ -1,5 +1,9 @@
 ---
-{"publish":true,"created":"2025-05-15T09:01:48.951+02:00","modified":"2025-05-26T15:25:07.091+02:00","published":"2025-05-26T15:25:07.091+02:00","cssclasses":""}
+publish: true
+created: 2025-05-15T09:01:48.951+02:00
+modified: 2025-05-26T15:25:07.091+02:00
+published: 2025-05-26T15:25:07.091+02:00
+cssclasses: ""
 ---
 
 #latex/itemize/item #latex/label #latex/hyperref #latex/clevref #latex/crefname #latex/cref #latex/ref #latex/xpatch #latex/refcount #latex/newcounter #latex/setcounter #latex/AtBeginEnvironment #latex/addtoextras

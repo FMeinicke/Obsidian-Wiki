@@ -1,5 +1,9 @@
 ---
-{"publish":true,"created":"2025-05-15T09:01:46.685+02:00","modified":"2025-05-26T15:25:02.277+02:00","published":"2025-05-26T15:25:02.277+02:00","cssclasses":""}
+publish: true
+created: 2025-05-15T09:01:46.685+02:00
+modified: 2025-05-26T15:25:02.277+02:00
+published: 2025-05-26T15:25:02.277+02:00
+cssclasses: ""
 ---
 
 #pyside6 #Q_ARG #Q_RETURN_ARG #QMetaObject/invokeMethod

@@ -1,5 +1,9 @@
 ---
-{"publish":true,"created":"2025-05-15T09:01:49.060+02:00","modified":"2025-05-26T15:25:07.309+02:00","published":"2025-05-26T15:25:07.309+02:00","cssclasses":""}
+publish: true
+created: 2025-05-15T09:01:49.060+02:00
+modified: 2025-05-26T15:25:07.309+02:00
+published: 2025-05-26T15:25:07.309+02:00
+cssclasses: ""
 ---
 
 #latex/caption #latex/spacing #latex/floats #latex/figure #latex/table #latex/listing #latex/setlength #latex/belowcaptionskip #latex/textfloatsep

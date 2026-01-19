@@ -1,5 +1,10 @@
 ---
-{"publish":true,"title":"VMWare NAT Network: No internet connection in guest","created":"2025-05-15T09:01:51.483+02:00","modified":"2025-05-27T08:42:17.876+02:00","published":"2025-05-27T08:42:17.876+02:00","cssclasses":""}
+publish: true
+title: "VMWare NAT Network: No internet connection in guest"
+created: 2025-05-15T09:01:51.483+02:00
+modified: 2025-05-27T08:42:17.876+02:00
+published: 2025-05-27T08:42:17.876+02:00
+cssclasses: ""
 ---
 
 

@@ -1,5 +1,9 @@
 ---
-{"publish":true,"created":"2025-05-15T09:01:46.888+02:00","modified":"2025-06-03T13:51:24.449+02:00","published":"2025-06-03T13:51:24.449+02:00","cssclasses":""}
+publish: true
+created: 2025-05-15T09:01:46.888+02:00
+modified: 2025-06-03T13:51:24.449+02:00
+published: 2025-06-03T13:51:24.449+02:00
+cssclasses: ""
 ---
 
 #QObject/moveToThread #QThread

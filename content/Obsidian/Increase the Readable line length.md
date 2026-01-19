@@ -1,5 +1,9 @@
 ---
-{"publish":true,"created":"2025-05-15T09:01:51.279+02:00","modified":"2025-05-26T15:25:12.700+02:00","published":"2025-05-26T15:25:12.700+02:00","cssclasses":""}
+publish: true
+created: 2025-05-15T09:01:51.279+02:00
+modified: 2025-05-26T15:25:12.700+02:00
+published: 2025-05-26T15:25:12.700+02:00
+cssclasses: ""
 ---
 
 #obsidian/css

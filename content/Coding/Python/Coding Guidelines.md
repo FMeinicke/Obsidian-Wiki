@@ -1,5 +1,9 @@
 ---
-{"publish":true,"created":"2025-05-15T09:01:46.513+02:00","modified":"2025-06-06T09:31:42.139+02:00","published":"2025-06-06T09:31:42.139+02:00","cssclasses":""}
+publish: true
+created: 2025-05-15T09:01:46.513+02:00
+modified: 2026-01-19T14:08:28.009+01:00
+published: 2026-01-19T14:08:28.009+01:00
+cssclasses: ""
 ---
 
 #coding-guidelines/python

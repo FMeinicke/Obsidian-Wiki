@@ -1,5 +1,9 @@
 ---
-{"publish":true,"created":"2025-05-15T09:01:51.983+02:00","modified":"2025-05-27T08:42:34.310+02:00","published":"2025-05-27T08:42:34.310+02:00","cssclasses":""}
+publish: true
+created: 2025-05-15T09:01:51.983+02:00
+modified: 2025-05-27T08:42:34.310+02:00
+published: 2025-05-27T08:42:34.310+02:00
+cssclasses: ""
 ---
 
 #pwsh/ampersand #pwsh/dot #pwsh/sourcing #pwsh/scope

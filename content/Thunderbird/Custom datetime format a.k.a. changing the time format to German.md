@@ -1,5 +1,9 @@
 ---
-{"publish":true,"created":"2025-05-15T09:01:51.436+02:00","modified":"2025-05-27T08:41:59.258+02:00","published":"2025-05-27T08:41:59.258+02:00","cssclasses":""}
+publish: true
+created: 2025-05-15T09:01:51.436+02:00
+modified: 2025-05-27T08:41:59.258+02:00
+published: 2025-05-27T08:41:59.258+02:00
+cssclasses: ""
 ---
 
 #thunderbird/date_time_format #thunderbird/date_format #thunderbird/time_format #thunderbird/advanced_preferences #thunderbird/locale/german
