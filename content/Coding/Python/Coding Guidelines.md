@@ -1,8 +1,8 @@
 ---
 publish: true
 created: 2025-05-15T09:01:46.513+02:00
-modified: 2026-01-19T14:08:28.009+01:00
-published: 2026-01-19T14:08:28.009+01:00
+modified: 2026-02-09T13:03:30.317+01:00
+published: 2026-02-09T13:03:30.317+01:00
 cssclasses: ""
 ---
 
@@ -100,3 +100,11 @@ cssclasses: ""
   ```
 - **Use the `@override` decorator from the `typing` module to mark functions in subclasses that override base class functions.**  
   This ensures that the subclass method has the same signature as the base class method and can prevent subtle bugs when the base class method changes, for example.
+- **Use the `@final` decorator from the `typing` module to mark functions and properties in base classes as "not to be overridden by subclasses".**  
+  This prevents accidental overwriting of these methods/properties by subclasses.
+- **Prefer relative imports when importing from the current directory/package at the top level.**  
+  Do use `from . import ...` or `from .sibling.sibling import ...`. This reduces writing boilerplate package paths and makes it easier to distinguish imports of modules in the same package/directory from the ones outside the current package/directory.
+- **Prefer absolute imports when importing from outside the current directory/package.**  
+  Don't use `from .. import ...` or `from ...grandcousin import ...`. This is error-prone and makes it hard to trace the actual module that is being imported (especially for common modules like `util` or `const`).
+- **Prefer absolute imports in all cases when importing inside a function or method.**  
+  This avoids ambiguity and makes the import explicit and easier to debug.
