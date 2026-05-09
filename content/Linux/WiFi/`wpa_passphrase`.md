@@ -1,17 +1,13 @@
 ---
 publish: true
-created: 2025-05-15T09:01:50.779+02:00
-modified: 2025-05-26T15:25:12.013+02:00
-published: 2025-05-26T15:25:12.013+02:00
-cssclasses: ""
+created: 2024-12-06T06:58:23.623+01:00
+modified: 2025-05-26T17:03:49.000+02:00
+published: 2025-05-26T17:03:49.000+02:00
 ---
-
 
 #wpa #wpa_cli #wpa_supplicant #passphrase #wifi #network
 
 > [!info] Source
->
->
 
 ```shell
 $ wpa_passphrase <SSID>

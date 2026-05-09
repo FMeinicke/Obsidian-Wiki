@@ -1,9 +1,8 @@
 ---
 publish: true
-created: 2025-05-15T09:01:52.233+02:00
-modified: 2025-05-27T08:42:34.857+02:00
-published: 2025-05-27T08:42:34.857+02:00
-cssclasses: ""
+created: 2024-12-06T06:58:19.957+01:00
+modified: 2025-05-27T08:42:49.000+02:00
+published: 2025-05-27T08:42:49.000+02:00
 ---
 
 #pwsh/select-string #grep

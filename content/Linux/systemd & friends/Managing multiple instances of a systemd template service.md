@@ -1,16 +1,13 @@
 ---
 publish: true
-created: 2025-05-15T09:01:50.951+02:00
-modified: 2025-05-26T15:25:11.606+02:00
-published: 2025-05-26T15:25:11.606+02:00
-cssclasses: ""
+created: 2024-12-06T06:58:09.641+01:00
+modified: 2025-05-26T17:02:10.000+02:00
+published: 2025-05-26T17:02:10.000+02:00
 ---
 
 #systemd #systemd-service #service-template #instanced-service
 
 > [!info] Source
->
->
 
 - Use the `<service_name>*` syntax to operate on all services of the `<service_name>@.service` template, e.g.
 

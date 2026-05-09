@@ -1,15 +1,14 @@
 ---
 publish: true
-created: 2025-05-15T09:01:48.810+02:00
-modified: 2025-05-26T15:25:06.794+02:00
-published: 2025-05-26T15:25:06.794+02:00
-cssclasses: ""
+created: 2024-12-06T06:58:26.880+01:00
+modified: 2025-05-26T17:04:15.000+02:00
+published: 2025-05-26T17:04:15.000+02:00
 ---
 
 #latex/dimension #latex/pt #latex/pc #latex/mm #latex/mm
 
 > [!info] Source(s)
-> 
+>
 > - <https://wiki.contextgarden.net/Dimensions>
 
 | unit         | TeX name | in sp     | in pt   | in pc  | in dd   | in cc  | in bp   | in in   | in mm  | in cm   |

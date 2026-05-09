@@ -1,15 +1,14 @@
 ---
 publish: true
-created: 2025-05-15T09:01:47.060+02:00
-modified: 2025-05-26T15:25:02.996+02:00
-published: 2025-05-26T15:25:02.996+02:00
-cssclasses: ""
+created: 2024-12-06T06:58:19.977+01:00
+modified: 2025-05-26T17:03:13.000+02:00
+published: 2025-05-26T17:03:13.000+02:00
 ---
 
 #docker-compose/volumes/local
 
 > [!info] Source
-> 
+>
 > - <https://forums.docker.com/t/top-level-volume-with-absolute-path/27552/6>
 
 ```yaml

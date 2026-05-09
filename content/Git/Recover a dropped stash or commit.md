@@ -1,16 +1,14 @@
 ---
 publish: true
-created: 2025-05-15T09:01:47.951+02:00
-modified: 2025-05-26T15:25:04.793+02:00
-published: 2025-05-26T15:25:04.793+02:00
-cssclasses: ""
+created: 2025-01-18T15:02:46.700+01:00
+modified: 2025-05-26T17:03:21.000+02:00
+published: 2025-05-26T17:03:21.000+02:00
 ---
 
-
-#git/stash/apply #git/gitk #git/fsck #awk #pwsh/select-string #pwsh/foreach 
+#git/stash/apply #git/gitk #git/fsck #awk #pwsh/select-string #pwsh/foreach
 
 > [!info] Source
-> 
+>
 > - <https://stackoverflow.com/a/91795/12780516>
 
 - to find the dropped stash / all unreferenced commits ever
@@ -25,7 +23,7 @@ gitk --all $( git fsck --no-reflog | awk '/dangling commit/ {print $NF}' )
 gitk --all $( git fsck --no-reflog | select-string 'dangling commit' | foreach { $_.ToString().Split(" ")[-1] } )
 ```
 
-- then look for *WIP on somebranch* or *autostash* commit messages
+- then look for _WIP on somebranch_ or _autostash_ commit messages
 - once found, note the commit hash
 - to apply the stash run
 

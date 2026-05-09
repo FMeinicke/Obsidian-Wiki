@@ -1,16 +1,15 @@
 ---
 publish: true
 title: Set branch to certain/current commit without checking out that branch
-created: 2025-05-15T09:01:47.982+02:00
-modified: 2025-06-04T11:18:53.866+02:00
-published: 2025-06-04T11:18:53.866+02:00
-cssclasses: ""
+created: 2024-12-06T06:58:10.744+01:00
+modified: 2025-06-04T11:19:08.000+02:00
+published: 2025-06-04T11:19:08.000+02:00
 ---
 
 #git/branch/force
 
 > [!info] Source
-> 
+>
 > - <https://stackoverflow.com/a/5471197/12780516>
 
 ```shell

@@ -1,9 +1,8 @@
 ---
 publish: true
-created: 2025-05-15T09:01:46.810+02:00
-modified: 2025-05-26T15:25:01.699+02:00
-published: 2025-05-26T15:25:01.699+02:00
-cssclasses: ""
+created: 2025-03-08T16:46:38.861+01:00
+modified: 2025-05-26T17:03:20.000+02:00
+published: 2025-05-26T17:03:20.000+02:00
 ---
 
 #python/abc #python/property #python/staticmethod

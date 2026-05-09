@@ -1,225 +1,252 @@
 ---
 publish: true
-created: 2025-05-15T09:01:51.264+02:00
-modified: 2025-06-24T09:23:15.013+02:00
-published: 2025-06-24T09:23:15.013+02:00
-cssclasses: ""
+created: 2024-12-06T06:58:26.460+01:00
+modified: 2025-06-24T09:23:20.000+02:00
+published: 2025-06-24T09:23:20.000+02:00
 ---
 
 #obsidian/callouts
 
 > [!info] Source
-> 
+>
 > - <https://help.obsidian.md/Editing+and+formatting/Callouts>
 
 - All possible callouts:
 
-  > [!example]- Click to show
+  > \[!example]- Click to show
   >
-  > > [!abstract]
-  > > 
+  > > \[!abstract]
+  > >
   > > ```markdown
   > > > [!abstract]
   > > > 
   > > > abstract
-  > 
-  > > [!summary]
-  > > 
+  > > ```
+  >
+  > > \[!summary]
+  > >
   > > ```markdown
   > > > [!summary]
   > > > 
   > > > summary
-  > 
-  > > [!tldr]
-  > > 
+  > > ```
+  >
+  > > \[!tldr]
+  > >
   > > ```markdown
   > > > [!tldr]
   > > > 
   > > > tldr
-  > 
-  > > [!info]
-  > > 
+  > > ```
+  >
+  > > \[!info]
+  > >
   > > ```markdown
   > > > [!info]
   > > > 
   > > > info
-  > 
-  > > [!todo]
-  > > 
+  > > ```
+  >
+  > > \[!todo]
+  > >
   > > ```markdown
   > > > [!todo]
   > > > 
   > > > todo
-  > 
-  > > [!tip]
-  > > 
+  > > ```
+  >
+  > > \[!tip]
+  > >
   > > ```markdown
   > > > [!tip]
   > > > 
   > > > tip
-  > 
-  > > [!hint]
-  > > 
+  > > ```
+  >
+  > > \[!hint]
+  > >
   > > ```markdown
   > > > [!hint]
   > > > 
   > > > hint
-  > 
-  > > [!important]
-  > > 
+  > > ```
+  >
+  > > \[!important]
+  > >
   > > ```markdown
   > > > [!important]
   > > > 
   > > > important
-  > 
-  > > [!success]
-  > > 
+  > > ```
+  >
+  > > \[!success]
+  > >
   > > ```markdown
   > > > [!success]
   > > > 
   > > > success
-  > 
-  > > [!check]
-  > > 
+  > > ```
+  >
+  > > \[!check]
+  > >
   > > ```markdown
   > > > [!check]
   > > > 
   > > > check
-  > 
-  > > [!done]
-  > > 
+  > > ```
+  >
+  > > \[!done]
+  > >
   > > ```markdown
   > > > [!done]
   > > > 
   > > > done
-  > 
-  > > [!question]
-  > > 
+  > > ```
+  >
+  > > \[!question]
+  > >
   > > ```markdown
   > > > [!question]
   > > > 
   > > > question
-  > 
-  > > [!help]
-  > > 
+  > > ```
+  >
+  > > \[!help]
+  > >
   > > ```markdown
   > > > [!help]
   > > > 
   > > > help
-  > 
-  > > [!faq]
-  > > 
+  > > ```
+  >
+  > > \[!faq]
+  > >
   > > ```markdown
   > > > [!faq]
   > > > 
   > > > faq
-  > 
-  > > [!warning]
-  > > 
+  > > ```
+  >
+  > > \[!warning]
+  > >
   > > ```markdown
   > > > [!warning]
   > > > 
   > > > warning
-  > 
-  > > [!caution]
-  > > 
+  > > ```
+  >
+  > > \[!caution]
+  > >
   > > ```markdown
   > > > [!caution]
   > > > 
   > > > caution
-  > 
-  > > [!attention]
-  > > 
+  > > ```
+  >
+  > > \[!attention]
+  > >
   > > ```markdown
   > > > [!attention]
   > > > 
   > > > attention
-  > 
-  > > [!failure]
-  > > 
+  > > ```
+  >
+  > > \[!failure]
+  > >
   > > ```markdown
   > > > [!failure]
   > > > 
   > > > failure
-  > 
-  > > [!fail]
-  > > 
+  > > ```
+  >
+  > > \[!fail]
+  > >
   > > ```markdown
   > > > [!fail]
   > > > 
   > > > fail
-  > 
-  > > [!missing]
-  > > 
+  > > ```
+  >
+  > > \[!missing]
+  > >
   > > ```markdown
   > > > [!missing]
   > > > 
   > > > missing
-  > 
-  > > [!danger]
-  > > 
+  > > ```
+  >
+  > > \[!danger]
+  > >
   > > ```markdown
   > > > [!danger]
   > > > 
   > > > danger
-  > 
-  > > [!error]
-  > > 
+  > > ```
+  >
+  > > \[!error]
+  > >
   > > ```markdown
   > > > [!error]
   > > > 
   > > > error
-  > 
-  > > [!bug]
-  > > 
+  > > ```
+  >
+  > > \[!bug]
+  > >
   > > ```markdown
   > > > [!bug]
   > > > 
   > > > bug
-  > 
-  > > [!example]
-  > > 
+  > > ```
+  >
+  > > \[!example]
+  > >
   > > ```markdown
   > > > [!example]
   > > > 
   > > > example
-  > 
-  > > [!quote]
-  > > 
+  > > ```
+  >
+  > > \[!quote]
+  > >
   > > ```markdown
   > > > [!quote]
   > > > 
   > > > quote
-  > 
-  > > [!cite]
-  > > 
+  > > ```
+  >
+  > > \[!cite]
+  > >
   > > ```markdown
   > > > [!cite]
   > > > 
   > > > cite
-
+  > > ```
 
 - The title can be changed by having text after the `[!callout]` part, e.g.
 
-   > [!hint] A custom hint
-   > 
-   > ```markdown
-   > > [!hint] A custom hint
-   > > 
-   > > This shows how to change the title of a callout.
+  > \[!hint] A custom hint
+  >
+  > ```markdown
+  > > [!hint] A custom hint
+  > > 
+  > > This shows how to change the title of a callout.
+  > ```
 
 - Callouts can also be foldable by adding a `+` or a `-` directly after `[!callout]` part, e.g.
 
-   > [!question]- Can callouts be foldable?
-   > 
-   > ```markdown
-   > > [!question]- Can callouts be foldable?
-   > > 
-   > > Yes, they can!
+  > \[!question]- Can callouts be foldable?
+  >
+  > ```markdown
+  > > [!question]- Can callouts be foldable?
+  > > 
+  > > Yes, they can!
+  > ```
 
-   > [!info]+ Behavior of the `+` and `-`
-   > 
-   > ```markdown
-   > > [!info]+ Behavior of the `+` and `-`
-   > > 
-   > > The `+` expands the callout, the `-` collapses it.
+  > \[!info]+ Behavior of the `+` and `-`
+  >
+  > ```markdown
+  > > [!info]+ Behavior of the `+` and `-`
+  > > 
+  > > The `+` expands the callout, the `-` collapses it.
+  > ```

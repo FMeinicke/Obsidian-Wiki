@@ -1,15 +1,14 @@
 ---
 publish: true
-created: 2025-05-15T09:01:49.123+02:00
-modified: 2025-05-26T15:25:07.450+02:00
-published: 2025-05-26T15:25:07.450+02:00
-cssclasses: ""
+created: 2024-12-06T06:58:19.147+01:00
+modified: 2025-05-26T17:03:09.000+02:00
+published: 2025-05-26T17:03:09.000+02:00
 ---
 
 #latex/edef #latex/setlength #latex/fboxrule
 
 > [!info] Source(s)
-> 
+>
 > - <https://tex.stackexchange.com/a/366237/239888>
 > - <https://tex.stackexchange.com/a/145073/239888>
 

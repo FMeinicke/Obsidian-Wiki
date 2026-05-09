@@ -1,16 +1,13 @@
 ---
 publish: true
-created: 2025-05-15T09:01:48.482+02:00
-modified: 2025-05-26T15:25:05.105+02:00
-published: 2025-05-26T15:25:05.105+02:00
-cssclasses: ""
+created: 2024-12-06T06:58:25.887+01:00
+modified: 2025-05-26T17:04:06.000+02:00
+published: 2025-05-26T17:04:06.000+02:00
 ---
 
 #git/reflog #git/reset/hard #git/rebase
 
 > [!info] Source
->
->
 
 ```shell
 git reflog                   # find HEAD commit of the branch as it was before rebasing

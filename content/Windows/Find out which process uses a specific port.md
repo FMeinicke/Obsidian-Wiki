@@ -1,9 +1,8 @@
 ---
 publish: true
-created: 2025-05-15T09:01:51.623+02:00
-modified: 2025-05-27T08:42:33.529+02:00
-published: 2025-05-27T08:42:33.529+02:00
-cssclasses: ""
+created: 2024-12-06T06:58:15.897+01:00
+modified: 2025-05-27T08:42:45.000+02:00
+published: 2025-05-27T08:42:45.000+02:00
 ---
 
 #port #pwsh/get-process #pwsh/get-nettcpconnection #pwsh/get-netudpendpoint #tcp #udp

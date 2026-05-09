@@ -1,20 +1,19 @@
 ---
 publish: true
-created: 2025-05-15T09:01:46.716+02:00
-modified: 2025-05-26T15:25:02.339+02:00
-published: 2025-05-26T15:25:02.339+02:00
-cssclasses: ""
+created: 2025-03-08T16:46:38.265+01:00
+modified: 2025-05-26T17:02:53.000+02:00
+published: 2025-05-26T17:02:53.000+02:00
 ---
 
 #pytest/monkeypatch #python/builtins #python/importlib
 
 > [!info] Source
-> 
+>
 > - <https://stackoverflow.com/a/2481588/12780516>
 
 - use the (already defined) pytest `monkeypatch` fixture to temporarily modify the state of the `builtins` module and the `sys.modules` `dict`
 - define a custom import function that raises `ImportError` when a certain module (in this case named `labbcan`) is requested to be imported
-- force a reload of the module that imports the module that should be mocked to be not existent (in this case `cetoni_qtro_models.linear_scaling`)  
+- force a reload of the module that imports the module that should be mocked to be not existent (in this case `cetoni_qtro_models.linear_scaling`)\
   -> this reload will in turn try to import `labbcan` again which will fail with an `ImportError`
 
 ```python

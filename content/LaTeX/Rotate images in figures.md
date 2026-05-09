@@ -1,15 +1,14 @@
 ---
 publish: true
-created: 2025-05-15T09:01:49.107+02:00
-modified: 2025-05-26T15:25:07.403+02:00
-published: 2025-05-26T15:25:07.403+02:00
-cssclasses: ""
+created: 2024-12-06T06:58:22.993+01:00
+modified: 2025-05-26T17:03:42.000+02:00
+published: 2025-05-26T17:03:42.000+02:00
 ---
 
 #latex/figure #latex/includegraphics/angle #latex/textwidth
 
 > [!info] Source
-> 
+>
 > - <https://tex.stackexchange.com/a/50073/239888>
 
 ```latex

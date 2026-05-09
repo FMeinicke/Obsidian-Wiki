@@ -1,15 +1,14 @@
 ---
 publish: true
-created: 2025-05-15T09:01:48.716+02:00
-modified: 2025-05-26T15:25:06.497+02:00
-published: 2025-05-26T15:25:06.497+02:00
-cssclasses: ""
+created: 2024-12-06T06:58:16.854+01:00
+modified: 2025-05-26T17:02:56.000+02:00
+published: 2025-05-26T17:02:56.000+02:00
 ---
 
 #latex/textbullet #latex/font-size
 
 > [!info] Source
-> 
+>
 > - <https://tex.stackexchange.com/a/152528/239888>
 > - <https://comp.text.tex.narkive.com/RRElJoAu/a-bullet-smaller-than-textbullet-but-larger-than-cdot#post5>
 

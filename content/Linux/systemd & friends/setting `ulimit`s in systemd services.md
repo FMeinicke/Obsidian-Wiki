@@ -1,9 +1,8 @@
 ---
 publish: true
-created: 2025-05-15T09:01:50.998+02:00
-modified: 2025-05-26T15:25:11.685+02:00
-published: 2025-05-26T15:25:11.685+02:00
-cssclasses: ""
+created: 2024-12-06T06:58:11.967+01:00
+modified: 2025-05-26T17:02:27.000+02:00
+published: 2025-05-26T17:02:27.000+02:00
 ---
 
 #systemd #systemd-service #ulimit

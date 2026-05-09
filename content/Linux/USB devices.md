@@ -1,11 +1,9 @@
 ---
 publish: true
-created: 2025-05-15T09:01:50.733+02:00
-modified: 2025-05-26T15:25:11.872+02:00
-published: 2025-05-26T15:25:11.872+02:00
-cssclasses: ""
+created: 2024-12-06T06:58:26.387+01:00
+modified: 2025-05-26T17:04:11.000+02:00
+published: 2025-05-26T17:04:11.000+02:00
 ---
-
 
 #usb #devices #udev #udevadm #ftdi
 

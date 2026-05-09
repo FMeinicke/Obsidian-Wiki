@@ -1,12 +1,10 @@
 ---
 publish: true
 title: FMeinicke's Wiki
-created: 2025-05-26T15:16:18.792+02:00
-modified: 2025-06-06T08:16:24.495+02:00
-published: 2025-06-06T08:16:24.495+02:00
-cssclasses: ""
+created: 2025-07-04T08:16:31.946+02:00
+modified: 2026-02-09T14:24:39.000+01:00
+published: 2026-02-09T14:24:39.000+01:00
 ---
-
 
 ```dataviewjs
 const folders = dv.pages('"Wiki"').where(p => p.file.name != "Wiki").groupBy(page => page.file.folder);

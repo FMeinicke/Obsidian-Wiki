@@ -1,15 +1,14 @@
 ---
 publish: true
-created: 2025-05-15T09:01:46.373+02:00
-modified: 2025-05-26T15:25:01.480+02:00
-published: 2025-05-26T15:25:01.480+02:00
-cssclasses: ""
+created: 2025-03-08T16:46:37.145+01:00
+modified: 2025-05-26T17:02:29.000+02:00
+published: 2025-05-26T17:02:29.000+02:00
 ---
 
 #css/counter/steps
 
 > [!info] Source
-> 
+>
 > - <https://codepen.io/chriscoyier/pen/wvKeQOp>
 
 ```css
@@ -36,6 +35,5 @@ ol ol li::before {
   background: darkorchid;
 }
 ```
-
 
 ---

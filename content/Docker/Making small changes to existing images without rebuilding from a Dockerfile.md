@@ -1,17 +1,15 @@
 ---
 publish: true
-created: 2025-05-15T09:01:47.185+02:00
-modified: 2025-05-26T15:25:03.261+02:00
-published: 2025-05-26T15:25:03.261+02:00
-cssclasses: ""
+created: 2025-02-04T11:08:27.545+01:00
+modified: 2025-05-26T17:02:10.000+02:00
+published: 2025-05-26T17:02:10.000+02:00
 ---
-
 
 #docker/run #docker/exec #docker/commit #systemctl/mask
 
 > [!info] Source
-> 
-> - 
+>
+> -
 
 Sometimes, you might want to add a simple command in the middle of a Dockerfile but don't want to rebuild the whole image again.
 In case this command is self-contained (i.e. doesn't introduce downstream dependencies to existing commands later in the Dockerfile), you can create an updated image using the following procedure:
@@ -22,7 +20,7 @@ In case this command is self-contained (i.e. doesn't introduce downstream depend
 4. Recreate and restart any affected containers using this image.
 5. Add the command to the Dockerfile at the desired location.
 
-For example, given the first Dockerfile from [[Docker/Running systemd as PID 1 in a container]] with the image named `ubuntu-systemd:latest` and the `systemcl mask` command to be added using the described procedure, you'd need to do the following:
+For example, given the first Dockerfile from [[Running systemd as PID 1 in a container]] with the image named `ubuntu-systemd:latest` and the `systemcl mask` command to be added using the described procedure, you'd need to do the following:
 
 ```console
 root@svr-vm-docker-01:/# docker run --name ubuntu-systemd-temp -d ubuntu-systemd:latest

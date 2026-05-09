@@ -1,15 +1,14 @@
 ---
 publish: true
-created: 2025-05-15T09:01:46.935+02:00
-modified: 2025-05-26T15:25:02.714+02:00
-published: 2025-05-26T15:25:02.714+02:00
-cssclasses: ""
+created: 2025-03-08T16:46:39.155+01:00
+modified: 2025-05-26T17:03:31.000+02:00
+published: 2025-05-26T17:03:31.000+02:00
 ---
 
 #qmake/dollar
 
 > [!info] Source
-> 
+>
 > - <https://forum.qt.io/post/426213>
 
 - use an escaped dollar sign **twice!**

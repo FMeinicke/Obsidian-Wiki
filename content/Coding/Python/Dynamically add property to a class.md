@@ -1,9 +1,8 @@
 ---
 publish: true
-created: 2025-05-15T09:01:46.560+02:00
-modified: 2025-05-26T15:25:01.996+02:00
-published: 2025-05-26T15:25:01.996+02:00
-cssclasses: ""
+created: 2025-03-08T16:46:37.725+01:00
+modified: 2025-05-26T17:02:48.000+02:00
+published: 2025-05-26T17:02:48.000+02:00
 ---
 
 #python/property

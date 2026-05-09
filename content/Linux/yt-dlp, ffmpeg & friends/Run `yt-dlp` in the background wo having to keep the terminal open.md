@@ -1,16 +1,14 @@
 ---
 publish: true
-created: 2025-05-15T09:01:51.123+02:00
-modified: 2025-05-26T15:25:12.153+02:00
-published: 2025-05-26T15:25:12.153+02:00
-cssclasses: ""
+created: 2024-12-06T06:58:08.878+01:00
+modified: 2025-05-26T17:01:59.000+02:00
+published: 2025-05-26T17:01:59.000+02:00
 ---
-
 
 #yt-dlp #nohup #bg #disown
 
 > [!info] Source
-> 
+>
 > - <https://smcleod.net/2018/07/run-youtube-dl-or-similar-in-the-background/>
 
 - prefix the command with `nohup`

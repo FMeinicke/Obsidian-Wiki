@@ -1,16 +1,14 @@
 ---
 publish: true
-created: 2025-05-15T09:01:50.545+02:00
-modified: 2025-05-26T15:25:10.997+02:00
-published: 2025-05-26T15:25:10.997+02:00
-cssclasses: ""
+created: 2025-04-23T18:08:39.944+02:00
+modified: 2025-05-26T17:02:45.000+02:00
+published: 2025-05-26T17:02:45.000+02:00
 ---
-
 
 #bash/random
 
 > [!info] Source
-> 
+>
 > - <https://serverfault.com/a/1076250/600279>
 
 ```bash

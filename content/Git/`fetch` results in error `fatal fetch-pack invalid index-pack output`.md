@@ -1,16 +1,13 @@
 ---
 publish: true
-created: 2025-05-15T09:01:48.216+02:00
-modified: 2025-05-26T15:25:05.247+02:00
-published: 2025-05-26T15:25:05.247+02:00
-cssclasses: ""
+created: 2024-12-06T06:58:10.691+01:00
+modified: 2025-05-26T17:02:19.000+02:00
+published: 2025-05-26T17:02:19.000+02:00
 ---
 
 #git/init #git/fetch
 
 > [!info] Source
->
->
 
 ```shell
 git init   # reinitialize local repository

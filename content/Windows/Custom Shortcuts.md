@@ -1,16 +1,15 @@
 ---
 publish: true
-created: 2025-05-15T09:01:51.592+02:00
-modified: 2025-05-27T08:42:33.435+02:00
-published: 2025-05-27T08:42:33.435+02:00
-cssclasses: ""
+created: 2024-12-06T06:58:24.573+01:00
+modified: 2025-05-27T08:42:53.000+02:00
+published: 2025-05-27T08:42:53.000+02:00
 ---
 
 #windows/shortcuts #windows/powertoys
 
 > [!info] Source
-> 
-> - 
+>
+> -
 
 | Shortcut                                                                                                                                                                           | Description                        |
 | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------- |
@@ -27,5 +26,5 @@ cssclasses: ""
 | <kbd>Win</kbd>+<kbd>Space</kbd>                                                                                                                                                    | PowerToys: PowerToys Run           |
 | <kbd>Win</kbd>+<kbd>Shift</kbd>+<kbd>M</kbd>                                                                                                                                       | PowerToys: On Screen Ruler         |
 | <kbd>Win</kbd>+<kbd>Shift</kbd>+<kbd>T</kbd>                                                                                                                                       | PowerToys: Text Extractor          |
-| <kbd>\<Key to add an accent to\></kbd>+<kbd>Space</kbd> or<br><kbd>\<Key to add an accent to\></kbd>+<kbd>Left</kbd> or<br><kbd>\<Key to add an accent to\></kbd>+<kbd>Right</kbd> | PowerToys: Quick Accent            |
+| <kbd>\<Key to add an accent to></kbd>+<kbd>Space</kbd> or<br><kbd>\<Key to add an accent to></kbd>+<kbd>Left</kbd> or<br><kbd>\<Key to add an accent to></kbd>+<kbd>Right</kbd> | PowerToys: Quick Accent            |
 | <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>T</kbd>                                                                                                                                        | Launch Terminal                    |

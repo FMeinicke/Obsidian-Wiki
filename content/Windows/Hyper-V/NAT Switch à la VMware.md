@@ -1,15 +1,14 @@
 ---
 publish: true
-created: 2025-05-15T09:01:51.733+02:00
-modified: 2025-05-27T08:42:33.747+02:00
-published: 2025-05-27T08:42:33.747+02:00
-cssclasses: ""
+created: 2024-12-06T06:58:20.814+01:00
+modified: 2025-05-27T08:42:50.000+02:00
+published: 2025-05-27T08:42:50.000+02:00
 ---
 
 #hyper-v/switch #nat #pwsh
 
 > [!info] Source
-> 
+>
 > - <https://www.windowspro.de/wolfgang-sommergut/nat-switch-hyper-v-einrichten-windows-10-server-2016>
 
 - neuen **"Internen"** Switch im Hyper-V-Manager anlegen

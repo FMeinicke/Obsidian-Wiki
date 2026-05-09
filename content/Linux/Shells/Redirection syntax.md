@@ -1,37 +1,35 @@
 ---
 publish: true
-created: 2025-05-15T09:01:50.420+02:00
-modified: 2025-05-26T15:25:11.325+02:00
-published: 2025-05-26T15:25:11.325+02:00
-cssclasses: ""
+created: 2024-12-06T06:58:22.843+01:00
+modified: 2025-05-26T17:03:40.000+02:00
+published: 2025-05-26T17:03:40.000+02:00
 ---
-
 
 #shell/redirect #shell/pipe #shell/stdout #shell/stderr #shell/file-descriptor
 
 > [!info] Source
-> 
+>
 > - <https://rednafi.com/misc/shell_redirection/>
 
 - **Redirect stdout**: `command > file`
 - **Redirect stderr**: `command 2> file`
 - **Redirect both stdout and stderr**:
-    - Standard: `command > file 2>&1`
-    - Shorthand: `command &> file`
+  - Standard: `command > file 2>&1`
+  - Shorthand: `command &> file`
 - **Append stdout**: `command >> file`
 - **Append both stdout and stderr**:
-    - Standard: `command >> file 2>&1`
-    - Shorthand: `command &>> file`
+  - Standard: `command >> file 2>&1`
+  - Shorthand: `command &>> file`
 - **Pipe stdout**: `command1 | command2`
 - **Pipe both stdout and stderr**:
-    - Standard: `command1 2>&1 | command2`
-    - Shorthand: `command1 |& command2`
+  - Standard: `command1 2>&1 | command2`
+  - Shorthand: `command1 |& command2`
 - **Custom file descriptors**:
-    - Create and redirect stdout: `exec 3> file; command >&3`
-    - Redirect stderr: `command 2>&3`
-    - Redirect both stdout and stderr: `command > /dev/fd/3 2>&1` (no shorthand available)
+  - Create and redirect stdout: `exec 3> file; command >&3`
+  - Redirect stderr: `command 2>&3`
+  - Redirect both stdout and stderr: `command > /dev/fd/3 2>&1` (no shorthand available)
 - **Discard stdout and stderr**:
-    - Standard: `command > /dev/null 2>&1`
-    - Shorthand: `command &>/dev/null`
+  - Standard: `command > /dev/null 2>&1`
+  - Shorthand: `command &>/dev/null`
 
 ---

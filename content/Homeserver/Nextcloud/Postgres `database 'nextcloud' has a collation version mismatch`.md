@@ -1,26 +1,24 @@
 ---
 publish: true
-created: 2025-08-15T09:08:34.243+02:00
+created: 2025-08-18T18:32:23.561+02:00
 modified: 2025-09-24T17:18:53.000+02:00
 published: 2025-09-24T17:18:53.000+02:00
-cssclasses: ""
 ---
 
-
-#nextcloud #postgres #psql 
+#nextcloud #postgres #psql
 
 > [!info] Source
-> 
+>
 > - <https://help.nextcloud.com/t/nextcloud-postgres-redis-in-docker-collation-version-mismatch/164294/3>
 
 - stop the Nextcloud container
-  
+
   ```console
   $ docker compose stop app
   ```
-  
+
 - bash into the postgres container and refresh the collation version, then reindex the database (this takes a while, don't worry)
-  
+
   ```console
   $ docker compose exec db bash
   root@9460dcc37889:/# psql -U nextcloud_pg nextcloud
@@ -40,10 +38,9 @@ cssclasses: ""
   root@9460dcc37889:/#
   exit
   ```
-  
+
 - restart the nextcloud container
-  
+
   ```console
   $ docker compose up -d
   ```
-  

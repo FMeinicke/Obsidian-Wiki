@@ -1,16 +1,14 @@
 ---
 publish: true
-created: 2025-05-15T09:01:50.373+02:00
-modified: 2025-05-26T15:25:10.575+02:00
-published: 2025-05-26T15:25:10.575+02:00
-cssclasses: ""
+created: 2024-12-06T06:58:12.051+01:00
+modified: 2025-05-26T17:02:29.000+02:00
+published: 2025-05-26T17:02:29.000+02:00
 ---
-
 
 #linux/usb/reset #linux/usb/unbind #linux/usb/bind
 
 > [!info] Source
-> 
+>
 > - <https://unix.stackexchange.com/a/704342/482223>
 
 - it happened to me after a return from sleep that no plugged or unplugged devices were recognized

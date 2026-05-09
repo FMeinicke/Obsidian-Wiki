@@ -1,15 +1,14 @@
 ---
 publish: true
-created: 2025-05-15T09:01:46.919+02:00
-modified: 2025-05-26T15:25:02.652+02:00
-published: 2025-05-26T15:25:02.652+02:00
-cssclasses: ""
+created: 2025-03-08T16:46:38.645+01:00
+modified: 2025-05-26T17:03:05.000+02:00
+published: 2025-05-26T17:03:05.000+02:00
 ---
 
 #qmake/contains #qmake/QMAKE_HOST #raspberry #arm
 
 > [!info] Source
-> 
+>
 > - <https://stackoverflow.com/a/39792865/12780516>
 > - <https://stackoverflow.com/a/76532117/12780516>
 

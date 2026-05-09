@@ -1,15 +1,14 @@
 ---
 publish: true
-created: 2025-05-15T09:01:46.591+02:00
-modified: 2025-05-26T15:25:02.058+02:00
-published: 2025-05-26T15:25:02.058+02:00
-cssclasses: ""
+created: 2025-03-08T16:46:36.518+01:00
+modified: 2025-05-26T17:02:06.000+02:00
+published: 2025-05-26T17:02:06.000+02:00
 ---
 
 #python/windows
 
 > [!info] Source
-> 
+>
 > - trial and error
 
 ```python

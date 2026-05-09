@@ -1,9 +1,8 @@
 ---
 publish: true
-created: 2025-05-15T09:01:46.732+02:00
-modified: 2025-05-26T15:25:02.402+02:00
-published: 2025-05-26T15:25:02.402+02:00
-cssclasses: ""
+created: 2025-03-08T16:46:38.151+01:00
+modified: 2025-05-26T17:02:49.000+02:00
+published: 2025-05-26T17:02:49.000+02:00
 ---
 
 #qt #qt-for-python #pyside #pyside2
@@ -95,14 +94,14 @@ if __name__ == "__main__":
 >     class CoreApplication(QCoreApplication):
 >         def event(self, event: QEvent) -> bool:
 >             return super().event(event)
-> 
+>
 >     app = CoreApplication([])
-> 
+>
 >     signal.signal(signal.SIGINT, lambda *a: app.exit())
 >     app.startTimer(100)
-> 
+>
 >     # ...
-> 
+>
 >     sys.exit(app.exec_())
 > ```
 >

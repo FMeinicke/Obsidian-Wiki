@@ -1,16 +1,14 @@
 ---
 publish: true
-created: 2025-05-15T09:01:47.919+02:00
-modified: 2025-05-26T15:25:04.683+02:00
-published: 2025-05-26T15:25:04.683+02:00
-cssclasses: ""
+created: 2025-02-06T08:50:04.673+01:00
+modified: 2025-05-26T17:04:09.000+02:00
+published: 2025-05-26T17:04:09.000+02:00
 ---
-
 
 #git
 
 > [!info] Source
-> 
+>
 > - <https://beej.us/guide/bggit/html/split/quick-reference.html#quick-reference>
 
 Quickly look up commands based on what you want to do! Caveat: this list is grotesquely incomplete! See your man pages for more info!
@@ -51,18 +49,18 @@ Also, don’t type the `$` - it’s the shell prompt. And everything after a `#`
 ## File States
 
 - **Untracked** to:
-    - Unmodified: `git add FILE`
+  - Unmodified: `git add FILE`
 - **Unmodified** to:
-    - Modified: Edit with your editor and save
-    - Untracked/deleted: `git rm --cached FILE`
+  - Modified: Edit with your editor and save
+  - Untracked/deleted: `git rm --cached FILE`
 - **Modified** to:
-    - Staged: `git add FILE`
-    - Unmodified: `git restore FILE` (discards changes)
-    - Untracked/deleted: `git rm --cached FILE`
+  - Staged: `git add FILE`
+  - Unmodified: `git restore FILE` (discards changes)
+  - Untracked/deleted: `git rm --cached FILE`
 - **Staged**
-    - Unmodified: `git commit FILE` (finalize commit)
-    - Modified: `git restore --staged FILE` (unstage)
-    - Both modified: `git checkout --merged FILE` (during merge)
+  - Unmodified: `git commit FILE` (finalize commit)
+  - Modified: `git restore --staged FILE` (unstage)
+  - Both modified: `git checkout --merged FILE` (during merge)
 
 ## Configuration
 

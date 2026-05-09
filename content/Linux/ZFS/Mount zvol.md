@@ -1,16 +1,14 @@
 ---
 publish: true
-created: 2025-05-15T09:01:50.795+02:00
-modified: 2025-05-26T15:25:12.294+02:00
-published: 2025-05-26T15:25:12.294+02:00
-cssclasses: ""
+created: 2024-12-06T06:58:26.000+01:00
+modified: 2025-05-26T17:04:09.000+02:00
+published: 2025-05-26T17:04:09.000+02:00
 ---
-
 
 #mount #zvol #kpartx
 
 > [!info] Source(s)
-> 
+>
 > - <https://forum.proxmox.com/threads/mount-zvol-to-host-ct.118384/>
 
 - run `kpartx` on the zvol device to discover available partitions

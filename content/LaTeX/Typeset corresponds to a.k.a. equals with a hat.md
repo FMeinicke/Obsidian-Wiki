@@ -8,7 +8,7 @@ cssclasses:
 #latex/mathrel #latex/hat #obsidian
 
 > [!info] Source
-> 
+>
 > - <https://tex.stackexchange.com/questions/103408/symbol-for-corresponds-to-equals-sign-with-hat>
 
 ```latex

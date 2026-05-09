@@ -1,16 +1,14 @@
 ---
 publish: true
-created: 2025-05-15T09:01:50.514+02:00
-modified: 2025-05-26T15:25:10.872+02:00
-published: 2025-05-26T15:25:10.872+02:00
-cssclasses: ""
+created: 2024-12-06T06:58:11.094+01:00
+modified: 2025-05-26T17:02:23.000+02:00
+published: 2025-05-26T17:02:23.000+02:00
 ---
-
 
 #bash/echo #bash/escaping #bash/quotes
 
 > [!info] Source
-> 
+>
 > - <https://stackoverflow.com/a/1250279/12780516>
 
 - use double quotes to "escape" one single quote after ending the single quoted string and before starting the next part of the single quoted string

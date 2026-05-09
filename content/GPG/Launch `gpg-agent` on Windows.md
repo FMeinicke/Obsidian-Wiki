@@ -1,9 +1,8 @@
 ---
 publish: true
-created: 2025-05-15T09:01:47.466+02:00
-modified: 2025-05-26T15:25:05.747+02:00
-published: 2025-05-26T15:25:05.747+02:00
-cssclasses: ""
+created: 2024-12-06T06:58:22.053+01:00
+modified: 2025-05-26T17:03:34.000+02:00
+published: 2025-05-26T17:03:34.000+02:00
 ---
 
 #gpg-agent #windows #gpgconf

@@ -1,16 +1,13 @@
 ---
 publish: true
-created: 2025-05-15T09:01:50.920+02:00
-modified: 2025-05-26T15:25:11.513+02:00
-published: 2025-05-26T15:25:11.513+02:00
-cssclasses: ""
+created: 2024-12-06T06:58:12.364+01:00
+modified: 2025-05-26T17:02:29.000+02:00
+published: 2025-05-26T17:02:29.000+02:00
 ---
 
 #systemd #journalctl #less
 
 > [!info] Source
->
->
 
 - set the `SYSTEM_LESS` environment variable
 - by default this value is `FRSXMK`

@@ -1,11 +1,10 @@
 ---
 publish: true
-created: 2025-05-15T09:01:46.998+02:00
-modified: 2025-05-27T09:02:40.954+02:00
-published: 2025-05-27T09:02:40.954+02:00
-cssclasses: ""
+created: 2025-03-08T16:46:40.075+01:00
+modified: 2025-05-27T09:02:51.000+02:00
+published: 2025-05-27T09:02:51.000+02:00
 ---
 
 #qmake/qmake_lflags #lld
 
-- with QMake 
+![[Use `lld` with MinGW's GCC#^dfbeda]]

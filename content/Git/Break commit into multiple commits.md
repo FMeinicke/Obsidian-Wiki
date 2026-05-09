@@ -1,15 +1,14 @@
 ---
 publish: true
-created: 2025-05-15T09:01:47.576+02:00
-modified: 2025-05-26T15:25:03.574+02:00
-published: 2025-05-26T15:25:03.574+02:00
-cssclasses: ""
+created: 2024-12-06T06:58:20.547+01:00
+modified: 2025-05-26T17:03:18.000+02:00
+published: 2025-05-26T17:03:18.000+02:00
 ---
 
 #git/commit #git/reset #git/rebase/interactive #git/rebase/edit
 
 > [!info] Source
-> 
+>
 > - <https://stackoverflow.com/a/6217314/12780516>
 
 ### Split the most recent commit

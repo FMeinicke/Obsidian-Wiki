@@ -1,15 +1,14 @@
 ---
 publish: true
-created: 2025-05-15T09:01:46.638+02:00
-modified: 2025-05-26T15:25:02.168+02:00
-published: 2025-05-26T15:25:02.168+02:00
-cssclasses: ""
+created: 2025-03-08T16:46:37.591+01:00
+modified: 2025-05-26T17:02:39.000+02:00
+published: 2025-05-26T17:02:39.000+02:00
 ---
 
 #python/generic #python/typevar
 
 > [!info] Source
-> 
+>
 > - <https://discuss.python.org/t/inside-a-generic-class-how-to-get-the-class-of-type-variable/20792>
 > - <https://stackoverflow.com/a/50101934/12780516>
 > - <https://github.com/python/cpython/blob/374abded070b861cc389d509937344073193c36a/Lib/types.py#L169>

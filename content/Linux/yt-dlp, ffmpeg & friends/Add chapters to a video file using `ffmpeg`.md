@@ -1,16 +1,14 @@
 ---
 publish: true
-created: 2025-05-15T09:01:51.076+02:00
-modified: 2025-05-26T15:25:12.060+02:00
-published: 2025-05-26T15:25:12.060+02:00
-cssclasses: ""
+created: 2024-12-06T06:58:10.707+01:00
+modified: 2025-05-26T17:02:18.000+02:00
+published: 2025-05-26T17:02:18.000+02:00
 ---
 
-
-#ffmpeg 
+#ffmpeg
 
 > [!info] Source(s)
-> 
+>
 > - <https://ikyle.me/blog/2020/add-mp4-chapters-ffmpeg>
 
 - get the original metadata from the video file
@@ -28,23 +26,24 @@ encoder=Lavf60.16.100
 ```
 
 - add chapters to the metadata file
-    - when using `TIMEBASE=1/1000`, the `START` and `END` values have to be in milliseconds, i.e. a timestamp of 2:32:13 would translate to 9133000
+  - when using `TIMEBASE=1/1000`, the `START` and `END` values have to be in milliseconds, i.e. a timestamp of 2:32:13 would translate to 9133000
 
 > [!example]-
+>
 > ```ini
 > ;FFMETADATA1
 > major_brand=isom
 > minor_version=512
 > compatible_brands=isomiso2avc1mp41
 > encoder=Lavf60.16.100
-> 
+>
 > [CHAPTER]
 > TIMEBASE=1/1000
 > START=0
 > ; 00:39:39
 > END=2379000
 > title=Start
-> 
+>
 > [CHAPTER]
 > TIMEBASE=1/1000
 > ; 00:39:39
@@ -52,7 +51,7 @@ encoder=Lavf60.16.100
 > ; 02:07:50
 > END=7670000
 > title=First Performance
-> 
+>
 > [CHAPTER]
 > TIMEBASE=1/1000
 > ; 02:07:50
@@ -60,7 +59,7 @@ encoder=Lavf60.16.100
 > ; 02:32:13
 > END=9133000
 > title=Break
-> 
+>
 > [CHAPTER]
 > TIMEBASE=1/1000
 > ; 02:32:13

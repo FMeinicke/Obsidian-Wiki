@@ -1,17 +1,15 @@
 ---
 publish: true
-created: 2025-05-15T09:01:48.576+02:00
-modified: 2025-05-26T15:25:06.200+02:00
-published: 2025-05-26T15:25:06.200+02:00
-cssclasses: ""
+created: 2024-12-06T06:58:19.520+01:00
+modified: 2025-05-26T17:03:10.000+02:00
+published: 2025-05-26T17:03:10.000+02:00
 ---
-
 
 #psql #docker-compose/exec
 
 > [!info] Source(s)
-> 
-> - 
+>
+> -
 
 ```shell
 [docker-jail nextcloud]# docker compose exec db bash

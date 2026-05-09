@@ -1,15 +1,14 @@
 ---
 publish: true
-created: 2025-05-15T09:01:52.029+02:00
-modified: 2025-05-27T08:42:34.419+02:00
-published: 2025-05-27T08:42:34.419+02:00
-cssclasses: ""
+created: 2024-12-06T06:58:16.084+01:00
+modified: 2025-05-27T08:42:45.000+02:00
+published: 2025-05-27T08:42:45.000+02:00
 ---
 
 #pwsh/import-module #enter-vsdevshell #visual-studio #msvc
 
 > [!info] Source
-> 
+>
 > - <https://discourse.cmake.org/t/best-practice-for-ninja-build-visual-studio/4653/5>
 > - <https://stackoverflow.com/a/69961784/12780516>
 

@@ -1,9 +1,8 @@
 ---
 publish: true
-created: 2025-05-15T09:01:47.294+02:00
-modified: 2025-05-26T15:25:03.511+02:00
-published: 2025-05-26T15:25:03.511+02:00
-cssclasses: ""
+created: 2024-12-06T06:58:08.911+01:00
+modified: 2025-05-26T17:01:59.000+02:00
+published: 2025-05-26T17:01:59.000+02:00
 ---
 
 #wsl #docker-desktop #credentials
