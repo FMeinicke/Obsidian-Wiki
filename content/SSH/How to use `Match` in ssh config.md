@@ -1,14 +1,15 @@
 ---
 publish: true
-created: 2024-12-06T06:58:21.384+01:00
-modified: 2025-05-26T17:03:26.000+02:00
-published: 2025-05-26T17:03:26.000+02:00
+created: 2025-05-15T09:01:51.326+02:00
+modified: 2025-05-26T15:25:12.825+02:00
+published: 2025-05-26T15:25:12.825+02:00
+cssclasses: ""
 ---
 
 #ssh/config/match #ssh/config/proxycommand
 
 > [!info] Source
->
+> 
 > - <https://stackoverflow.com/a/40747254/12780516>
 > - <https://man7.org/linux/man-pages/man5/ssh_config.5.html>
 

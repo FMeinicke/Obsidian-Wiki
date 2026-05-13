@@ -1,14 +1,16 @@
 ---
 publish: true
-created: 2025-03-24T17:55:21.366+01:00
-modified: 2025-05-26T17:03:16.000+02:00
-published: 2025-05-26T17:03:16.000+02:00
+created: 2025-05-15T09:01:49.561+02:00
+modified: 2025-05-26T15:25:08.481+02:00
+published: 2025-05-26T15:25:08.481+02:00
+cssclasses: ""
 ---
+
 
 #openssl/enc #aes #key
 
 > [!info] Source
->
+> 
 > - <https://www.ibm.com/docs/en/imdm/12.0?topic=encryption-generating-aes-keys-password>
 
 ```console
@@ -20,4 +22,4 @@ key=37F3D028910EC35FB956219FE487DFC8
 iv =2015992ADD4263EE169084C6FD8C1FBA
 ```
 
-- a valid AES key can also be generated using [[Generate a random string|a random string generated with openssl]]
+- a valid AES key can also be generated using [[Linux/Commands/openssl/Generate a random string\|a random string generated with openssl]]

@@ -1,14 +1,15 @@
 ---
 publish: true
-created: 2025-03-08T16:46:36.588+01:00
-modified: 2025-05-26T17:02:06.000+02:00
-published: 2025-05-26T17:02:06.000+02:00
+created: 2025-05-15T09:01:46.685+02:00
+modified: 2025-05-26T15:25:02.277+02:00
+published: 2025-05-26T15:25:02.277+02:00
+cssclasses: ""
 ---
 
 #pyside6 #Q_ARG #Q_RETURN_ARG #QMetaObject/invokeMethod
 
 > [!info] Source
->
+> 
 > - lots of trail and error
 > - <https://codereview.qt-project.org/c/pyside/pyside-setup/+/408145/18/sources/pyside6/tests/QtCore/qmetaobject_test.py>
 

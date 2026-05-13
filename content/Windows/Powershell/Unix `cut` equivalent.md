@@ -1,14 +1,15 @@
 ---
 publish: true
-created: 2024-12-06T06:58:20.067+01:00
-modified: 2025-05-27T08:42:49.000+02:00
-published: 2025-05-27T08:42:49.000+02:00
+created: 2025-05-15T09:01:52.170+02:00
+modified: 2025-05-27T08:42:34.763+02:00
+published: 2025-05-27T08:42:34.763+02:00
+cssclasses: ""
 ---
 
 #pwsh/foreach-object #pwsh/split #pwsh/tostring
 
 > [!info] Source
->
+> 
 > - <https://stackoverflow.com/a/24634448/12780516>
 
 ```powershell

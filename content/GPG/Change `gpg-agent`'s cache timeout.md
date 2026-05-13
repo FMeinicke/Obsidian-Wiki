@@ -1,8 +1,9 @@
 ---
 publish: true
-created: 2024-12-06T06:58:20.627+01:00
-modified: 2025-05-26T17:03:19.000+02:00
-published: 2025-05-26T17:03:19.000+02:00
+created: 2025-05-15T09:01:47.341+02:00
+modified: 2025-05-26T15:25:05.403+02:00
+published: 2025-05-26T15:25:05.403+02:00
+cssclasses: ""
 ---
 
 #gpg-agent #gpg/cache-ttl #gpgconf

@@ -1,14 +1,15 @@
 ---
 publish: true
-created: 2024-12-06T06:58:14.634+01:00
-modified: 2025-05-26T17:02:37.000+02:00
-published: 2025-05-26T17:02:37.000+02:00
+created: 2025-05-15T09:01:47.154+02:00
+modified: 2025-05-26T15:25:03.214+02:00
+published: 2025-05-26T15:25:03.214+02:00
+cssclasses: ""
 ---
 
 #docker-compose/deploy/resources/limits
 
 > [!info] Source
->
+> 
 > - <https://stackoverflow.com/a/57135933/12780516>
 
 ```yaml

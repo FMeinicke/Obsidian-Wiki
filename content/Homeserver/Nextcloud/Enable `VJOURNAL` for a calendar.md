@@ -1,14 +1,16 @@
 ---
 publish: true
-created: 2024-12-06T06:58:15.107+01:00
-modified: 2025-05-26T17:02:42.000+02:00
-published: 2025-05-26T17:02:42.000+02:00
+created: 2025-05-15T09:01:48.560+02:00
+modified: 2025-05-26T15:25:06.137+02:00
+published: 2025-05-26T15:25:06.137+02:00
+cssclasses: ""
 ---
+
 
 #psql #docker-compose/exec #vjournal
 
 > [!info] Source(s)
->
+> 
 > - <https://help.nextcloud.com/t/synchronizing-notes-over-caldav-as-vjournal-format/1676/17>
 
 ```shell

@@ -1,14 +1,16 @@
 ---
 publish: true
-created: 2025-07-04T08:16:05.776+02:00
-modified: 2025-05-28T08:38:23.000+02:00
-published: 2025-05-28T08:38:23.000+02:00
+created: 2025-05-28T08:31:35.101+02:00
+modified: 2025-05-28T08:38:11.787+02:00
+published: 2025-05-28T08:38:11.787+02:00
+cssclasses: ""
 ---
+
 
 #docker/context/create #docker/--context #docker/compose
 
 > [!info] Source
->
+> 
 > - <https://docs.docker.com/engine/daemon/remote-access/>
 > - <https://docs.docker.com/engine/security/protect-access/>
 

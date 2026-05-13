@@ -1,14 +1,15 @@
 ---
 publish: true
-created: 2024-12-06T06:58:25.160+01:00
-modified: 2025-05-26T17:03:59.000+02:00
-published: 2025-05-26T17:03:59.000+02:00
+created: 2025-05-15T09:01:48.263+02:00
+modified: 2025-05-26T15:25:03.668+02:00
+published: 2025-05-26T15:25:03.668+02:00
+cssclasses: ""
 ---
 
 #git/commit/amend #git/commit/date
 
 > [!info] Source
->
+> 
 > - <https://stackoverflow.com/a/9110424/12780516>
 
 ```shell

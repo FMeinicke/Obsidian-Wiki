@@ -1,9 +1,11 @@
 ---
 publish: true
-created: 2024-12-06T06:58:09.921+01:00
-modified: 2025-05-26T17:02:13.000+02:00
-published: 2025-05-26T17:02:13.000+02:00
+created: 2025-05-15T09:01:50.061+02:00
+modified: 2025-05-26T15:25:09.638+02:00
+published: 2025-05-26T15:25:09.638+02:00
+cssclasses: ""
 ---
+
 
 #debian #ubuntu #deb #deb-package #preinst #postinst #prerm
 
@@ -19,7 +21,6 @@ published: 2025-05-26T17:02:13.000+02:00
   ```
 
 - edit the scripts inside the temporary directory
-
 - optionally: fix the permissions on the maintainer scripts to be `>=0555` and `<=0755`, e.g.
 
   ```shell

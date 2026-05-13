@@ -1,14 +1,16 @@
 ---
 publish: true
-created: 2025-02-04T11:07:41.831+01:00
-modified: 2025-05-27T09:06:33.000+02:00
-published: 2025-05-27T09:06:33.000+02:00
+created: 2025-05-15T09:01:47.248+02:00
+modified: 2025-05-27T09:06:27.827+02:00
+published: 2025-05-27T09:06:27.827+02:00
+cssclasses: ""
 ---
 
-#docker/run #docker/run/--privileged #docker/run/--tmpfs #dockerfile #docker-compose #docker-compose/tmpfs #docker-compose/privileged #ubuntu #systemd
+
+#docker/run #docker/run/--privileged #docker/run/--tmpfs #dockerfile #docker-compose #docker-compose/tmpfs #docker-compose/privileged #ubuntu #systemd 
 
 > [!info] Source
->
+> 
 > - <https://github.com/AkihiroSuda/containerized-systemd/blob/47070057becab3f44771b676e9c400289405b0cd/Dockerfile.ubuntu-20.04>
 > - <https://github.com/solita/docker-systemd>
 > - <https://forums.docker.com/t/docker-run-privileged-systemd-kills-all-tty-sessions/8610/3>
@@ -55,5 +57,4 @@ services:
 ```
 
 [solita/docker-systemd]: https://github.com/solita/docker-systemd
-
 [AkihiroSuda/containerized-systemd/Dockerfile.ubuntu-20.04]: https://github.com/AkihiroSuda/containerized-systemd/blob/47070057becab3f44771b676e9c400289405b0cd/Dockerfile.ubuntu-20.04

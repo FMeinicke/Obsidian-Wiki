@@ -1,14 +1,16 @@
 ---
 publish: true
-created: 2025-03-12T16:54:06.852+01:00
-modified: 2025-05-26T17:03:08.000+02:00
-published: 2025-05-26T17:03:08.000+02:00
+created: 2025-05-15T09:01:50.498+02:00
+modified: 2025-05-26T15:25:10.825+02:00
+published: 2025-05-26T15:25:10.825+02:00
+cssclasses: ""
 ---
+
 
 #bash/arithmethic-expression #linux/bc
 
 > [!info] Source
->
+> 
 > - <https://stackoverflow.com/a/30398152/12780516>
 
 - using an arithmetic expression (`$(( $a / $b ))`) only gives an integer result

@@ -1,14 +1,15 @@
 ---
 publish: true
-created: 2024-12-06T06:58:16.644+01:00
-modified: 2025-05-26T17:02:53.000+02:00
-published: 2025-05-26T17:02:53.000+02:00
+created: 2025-05-15T09:01:46.060+02:00
+modified: 2025-05-26T15:25:00.824+02:00
+published: 2025-05-26T15:25:00.824+02:00
+cssclasses: ""
 ---
 
 #adb/install
 
 > [!info] Source(s)
->
+> 
 > - <https://www.macrodroidforum.com/index.php?threads/macrodroid-helper-apk.1/>
 > - <https://www.macrodroidforum.com/index.php?threads/installing-helper-on-android-14.5606/>
 

@@ -1,8 +1,9 @@
 ---
 publish: true
-created: 2024-12-06T06:58:24.363+01:00
-modified: 2025-05-26T17:03:55.000+02:00
-published: 2025-05-26T17:03:55.000+02:00
+created: 2025-05-15T09:01:47.513+02:00
+modified: 2025-05-26T15:25:05.840+02:00
+published: 2025-05-26T15:25:05.840+02:00
+cssclasses: ""
 ---
 
 #gpg/renew #gpg/edit-key #gpg/expire #gpg/trust
@@ -44,4 +45,4 @@ Finally, save the changes:
 gpg> save
 ```
 
-Then, [[#Export public and private keys|export the key again]] and [[#Publish a key to a key server|publish it to a key server]].
+Then, [[GPG/Renew an expired key#Export public and private keys\|export the key again]] and [[GPG/Renew an expired key#Publish a key to a key server\|publish it to a key server]].

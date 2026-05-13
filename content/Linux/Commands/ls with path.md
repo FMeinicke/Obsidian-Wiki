@@ -1,14 +1,16 @@
 ---
 publish: true
-created: 2025-03-08T16:46:39.978+01:00
-modified: 2025-05-26T17:03:49.000+02:00
-published: 2025-05-26T17:03:49.000+02:00
+created: 2025-05-15T09:01:49.529+02:00
+modified: 2025-05-26T15:25:08.356+02:00
+published: 2025-05-26T15:25:08.356+02:00
+cssclasses: ""
 ---
+
 
 #ls/-1
 
 > [!info] Source
->
+> 
 > - <https://stackoverflow.com/a/3572628/12780516>
 
 ```console

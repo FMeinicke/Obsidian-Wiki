@@ -1,9 +1,11 @@
 ---
 publish: true
-created: 2024-12-06T06:58:11.781+01:00
-modified: 2025-05-26T17:02:25.000+02:00
-published: 2025-05-26T17:02:25.000+02:00
+created: 2025-05-15T09:01:49.404+02:00
+modified: 2025-05-26T15:25:08.184+02:00
+published: 2025-05-26T15:25:08.184+02:00
+cssclasses: ""
 ---
+
 
 #find/exec #find/print0 #chmod #xargs
 

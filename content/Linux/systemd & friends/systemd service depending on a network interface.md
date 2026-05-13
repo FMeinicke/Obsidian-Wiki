@@ -1,8 +1,9 @@
 ---
 publish: true
-created: 2024-12-06T06:58:10.764+01:00
-modified: 2025-05-26T17:02:21.000+02:00
-published: 2025-05-26T17:02:21.000+02:00
+created: 2025-05-15T09:01:51.061+02:00
+modified: 2025-05-26T15:25:11.825+02:00
+published: 2025-05-26T15:25:11.825+02:00
+cssclasses: ""
 ---
 
 #systemd #systemd-unit #systemd-service #network
@@ -29,5 +30,5 @@ published: 2025-05-26T17:02:21.000+02:00
   ```
 
 - use `Wants=network-online.target` and `After=network-online.target` to actually wait for the network to be online
-  > \[!NOTE]
+  > [!NOTE]
   > This only works as a one-time concept during system start-up. The `network-online.service` unit does not monitor the online state of the system!

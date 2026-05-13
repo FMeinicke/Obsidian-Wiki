@@ -1,13 +1,16 @@
 ---
 publish: true
-created: 2024-12-06T06:58:25.577+01:00
-modified: 2025-05-26T17:04:04.000+02:00
-published: 2025-05-26T17:04:04.000+02:00
+created: 2025-05-15T09:01:48.419+02:00
+modified: 2025-05-26T15:25:04.902+02:00
+published: 2025-05-26T15:25:04.902+02:00
+cssclasses: ""
 ---
 
 #git/checkout
 
 > [!info] Source
+>
+>
 
 ```shell
 git checkout HEAD -- /path/to/file

@@ -1,14 +1,15 @@
 ---
 publish: true
-created: 2024-12-06T06:58:09.214+01:00
-modified: 2025-05-26T17:02:05.000+02:00
-published: 2025-05-26T17:02:05.000+02:00
+created: 2025-05-15T09:01:49.060+02:00
+modified: 2025-05-26T15:25:07.309+02:00
+published: 2025-05-26T15:25:07.309+02:00
+cssclasses: ""
 ---
 
 #latex/caption #latex/spacing #latex/floats #latex/figure #latex/table #latex/listing #latex/setlength #latex/belowcaptionskip #latex/textfloatsep
 
 > [!info] Source
->
+> 
 > - <https://tex.stackexchange.com/a/23315/239888>
 > - <https://tex.stackexchange.com/a/23316/239888>
 

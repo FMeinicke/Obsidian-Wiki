@@ -1,14 +1,16 @@
 ---
 publish: true
-created: 2025-02-01T14:32:38.922+01:00
-modified: 2025-05-26T17:03:00.000+02:00
-published: 2025-05-26T17:03:00.000+02:00
+created: 2025-05-15T09:01:50.264+02:00
+modified: 2025-05-26T15:25:10.247+02:00
+published: 2025-05-26T15:25:10.247+02:00
+cssclasses: ""
 ---
+
 
 #linux/gparted/bug #partition #disk
 
 > [!info] Source
->
+> 
 > - <https://askubuntu.com/a/1251124/1152691>
 
-- select _None_ in the dropdown _Align to:_
+- select *None* in the dropdown *Align to:*

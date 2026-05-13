@@ -4,11 +4,10 @@ title: Difference between slash (`/`) and asterisk (`*`) in function parameter l
 cssclasses:
   - hide_properties
 ---
-
 #python/slash #python/asterisk #python/parameters #python/functions
 
 > [!info] Source
->
+> 
 > - <https://realpython.com/python-asterisk-and-slash-special-parameters/>
 
 - the **slash (`/`)** separates **positional-only** arguments from **positional or keyword** arguments

@@ -1,8 +1,9 @@
 ---
 publish: true
-created: 2025-03-08T16:46:39.715+01:00
-modified: 2025-05-26T17:03:45.000+02:00
-published: 2025-05-26T17:03:45.000+02:00
+created: 2025-05-15T09:01:46.857+02:00
+modified: 2025-05-26T15:25:02.511+02:00
+published: 2025-05-26T15:25:02.511+02:00
+cssclasses: ""
 ---
 
 #python/stub #pyi #stubgen

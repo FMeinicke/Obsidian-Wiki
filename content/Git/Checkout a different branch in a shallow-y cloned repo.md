@@ -1,14 +1,15 @@
 ---
 publish: true
-created: 2024-12-06T06:58:12.591+01:00
-modified: 2025-05-26T17:02:31.000+02:00
-published: 2025-05-26T17:02:31.000+02:00
+created: 2025-05-15T09:01:47.623+02:00
+modified: 2025-05-26T15:25:03.746+02:00
+published: 2025-05-26T15:25:03.746+02:00
+cssclasses: ""
 ---
 
 #git/clone/depth #git/fetch/depth #git/reset/hard
 
 > [!info] Source
->
+> 
 > - ChatGPT conversation
 
 ```shell

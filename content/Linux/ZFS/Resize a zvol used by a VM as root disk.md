@@ -1,14 +1,16 @@
 ---
 publish: true
-created: 2025-03-02T14:50:43.645+01:00
-modified: 2025-05-26T17:02:50.000+02:00
-published: 2025-05-26T17:02:50.000+02:00
+created: 2025-05-15T09:01:50.826+02:00
+modified: 2025-05-26T15:25:12.341+02:00
+published: 2025-05-26T15:25:12.341+02:00
+cssclasses: ""
 ---
+
 
 #e2fsck #resize2fs #fdisk #zfs/set/volsize #truenas
 
 > [!info] Source
->
+> 
 > - <https://askubuntu.com/a/1224578/1152691>
 > - <https://www.truenas.com/community/threads/changing-size-shrink-on-active-zvol.42142/post-444130>
 
@@ -16,23 +18,23 @@ published: 2025-05-26T17:02:50.000+02:00
 - edit the VM to add a live ISO image with the device order higher than the disk device of the VM
 - start the VM to boot into the live ISO
 - resize the root partition to its new smaller size
-  - run `e2fsck -f /dev/vda3` (where `dev/vda3` is the partition to be resized)
-  - then run `resize2fs /dev/vda3 150G` to resize the partition (where `150G` is the new smaller size)
+    - run `e2fsck -f /dev/vda3` (where `dev/vda3` is the partition to be resized)
+    - then run `resize2fs /dev/vda3 150G` to resize the partition (where `150G` is the new smaller size)
 - alter the partition table
-  - run `fdisk /dev/vda`
-  - enter `p` to print the table for reference
-  - enter `d` followed by `3` to delete the partition
-  - enter `n` followed by `3` followed by `+150G` to create a new partition with the smaller size
-  - answer `no` if asked to remove the ext4 marker
-  - enter `t` followed by the correct partition type ID (in this case `23` for `Linux root (x86-64)`)
-  - enter `w` to write the new partition table
+    - run `fdisk /dev/vda`
+    - enter `p` to print the table for reference
+    - enter `d` followed by `3` to delete the partition
+    - enter `n` followed by `3` followed by `+150G` to create a new partition with the smaller size
+    - answer `no` if asked to remove the ext4 marker
+    - enter `t` followed by the correct partition type ID (in this case `23` for `Linux root (x86-64)`)
+    - enter `w` to write the new partition table
 - shutdown the VM again
 - create a ZFS snapshot of the zvol
 - resize the zvol (only possible via the command line)
-  - run `zfs set volsize=200G <pool>/<zvol>` to set the new size for the zvol
-  - this will destroy the partition table and maybe even the whole data, but we can get that back when we...
+    - run `zfs set volsize=200G <pool>/<zvol>` to set the new size for the zvol
+    - this will destroy the partition table and maybe even the whole data, but we can get that back when we...
 - restore the snapshot from before (this can be done in the GUI again), confirming that this will delete/replace all data
-- \~~the size of the zvol will stay the new smaller size, but~~ all data (since it should fit snugly into the new space) will be restored
+- ~~the size of the zvol will stay the new smaller size, but~~ all data (since it should fit snugly into the new space) will be restored
 - then simply start the VM and enjoy
 
 > [!NOTE] Edit

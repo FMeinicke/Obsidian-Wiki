@@ -1,14 +1,15 @@
 ---
 publish: true
-created: 2024-12-06T06:58:16.404+01:00
-modified: 2025-05-26T17:02:50.000+02:00
-published: 2025-05-26T17:02:50.000+02:00
+created: 2025-05-15T09:01:49.076+02:00
+modified: 2025-05-26T15:25:07.372+02:00
+published: 2025-05-26T15:25:07.372+02:00
+cssclasses: ""
 ---
 
 #latex/footref #latex/footnote #latex/label
 
 > [!info] Source
->
+> 
 > - <https://tex.stackexchange.com/a/368659/239888> (this actually suggests creating the command `\footref` but it appears that it's already included in latex-dev)
 
 - add a `\label` to the `\footnote` to reference, then use `\footref` to reference it:

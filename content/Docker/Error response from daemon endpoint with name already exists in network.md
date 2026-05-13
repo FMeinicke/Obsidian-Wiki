@@ -1,14 +1,15 @@
 ---
 publish: true
-created: 2024-12-06T06:58:09.998+01:00
-modified: 2025-05-26T17:02:15.000+02:00
-published: 2025-05-26T17:02:15.000+02:00
+created: 2025-05-15T09:01:47.138+02:00
+modified: 2025-05-26T15:25:03.168+02:00
+published: 2025-05-26T15:25:03.168+02:00
+cssclasses: ""
 ---
 
 #docker/network/disconnect #docker/compose/up/-d #nextcloud
 
 > [!info] Source
->
+> 
 > - trial and error
 > - <https://github.com/moby/moby/issues/33156>
 
@@ -27,7 +28,7 @@ $ docker compose up -d
 
 - otherwise try to remove the network and let compose create it again
 - if a non-existent container prevents the network from being removed, restarting the docker service is currently the only option (<https://github.com/moby/moby/issues/33156>)
-  - first `docker compose down` the affected stack, there will be an error that the affected network cannot be removed
-  - then restart docker
-  - afterward remove the affected network manually `docker network rm <network>`
-  - now bring the stack back up again
+    - first `docker compose down` the affected stack, there will be an error that the affected network cannot be removed
+    - then restart docker
+    - afterward remove the affected network manually `docker network rm <network>`
+    - now bring the stack back up again
